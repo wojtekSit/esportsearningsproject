@@ -1,6 +1,7 @@
 export default {
   build: {
     sourcemap: true,
-    base: '/esportsearningsproject/'
+    base: '/esportsearningsproject/',
+    target: "ES2022"
   },
 }
