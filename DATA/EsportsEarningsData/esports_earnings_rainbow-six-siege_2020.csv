@@ -1,0 +1,101 @@
+Order,Player ID,Player Name,Country,Total earnings(year),Total Earnings(game),Percentage of Game,Total(Overall),Percentage of Total
+1.,Canadian,Troy Jaroslawski,Canada,"$225,200.00","$491,661.90",45.80%,"$491,661.90",45.80%
+2.,Fultz,Alec Fultz,United States of America,"$225,200.00","$380,200.00",59.23%,"$380,200.00",59.23%
+3.,Bosco,Dylan Bosco,United States of America,"$225,200.00","$376,083.33",59.88%,"$376,083.33",59.88%
+4.,Rampy,Nathanial Duvall,United States of America,"$225,200.00","$364,593.33",61.77%,"$364,593.33",61.77%
+5.,Thinkingnade,Javier Escamila,United States of America,"$224,200.00","$300,730.00",74.55%,"$300,730.00",74.55%
+6.,julio,Júlio Giacomelli,Brazil,"$109,900.00","$485,522.17",22.64%,"$488,009.02",22.52%
+7.,Psycho,Gustavo Rigal,Brazil,"$109,900.00","$447,356.55",24.57%,"$447,356.55",24.57%
+8.,pino,Gabriel Fernandes,Brazil,"$109,900.00","$422,875.30",25.99%,"$423,666.11",25.94%
+9.,Muzi,Murilo Muzi,Brazil,"$109,900.00","$418,875.30",26.24%,"$418,875.30",26.24%
+10.,Kamikaze,João Gomes,Brazil,"$109,900.00","$388,164.31",28.31%,"$388,164.31",28.31%
+11.,Geometrics,Emilio Leynez,Mexico,"$80,450.00","$475,400.00",16.92%,"$475,400.00",16.92%
+12.,Beaulo,Jason Doty,United States of America,"$80,450.00","$408,185.00",19.71%,"$408,185.00",19.71%
+13.,Merc,Bryan Wrzek,United States of America,"$80,450.00","$389,616.67",20.65%,"$389,616.67",20.65%
+14.,Achieved,Matthew Solomon,United States of America,"$80,450.00","$387,000.00",20.79%,"$387,000.00",20.79%
+15.,Shaiiko,Stephane Lebleu,France,"$71,164.34","$591,099.76",12.04%,"$592,956.05",12.00%
+16.,Elemzje,Bryan Tebessi,France,"$71,164.34","$517,196.08",13.76%,"$517,196.08",13.76%
+17.,Renshiro,Olivier Vandroux,France,"$71,164.34","$510,989.39",13.93%,"$510,989.39",13.93%
+18.,RaFaLe,Adrien Rutik,France,"$71,164.34","$259,236.72",27.45%,"$259,236.72",27.45%
+19.,Pojoman,Owen Mitura,Canada,"$58,500.00","$83,950.00",69.68%,"$83,950.00",69.68%
+20.,Hotancold,Matthew Stevens,United States of America,"$54,250.00","$214,703.33",25.27%,"$214,703.33",25.27%
+21.,Ecl9pse,Tyler McMullin,United States of America,"$54,250.00","$213,403.33",25.42%,"$213,403.33",25.42%
+22.,Skys,Alexander Magor,United States of America,"$54,250.00","$187,366.66",28.95%,"$187,366.66",28.95%
+23.,Hyper,Paul Kontopanagiotis,United States of America,"$54,250.00","$182,518.33",29.72%,"$182,518.33",29.72%
+24.,Mint,Kyle Lander,United States of America,"$54,250.00","$105,300.00",51.52%,"$105,300.00",51.52%
+25.,Virtue,Jake Grannan,Australia,"$45,418.72","$393,731.82",11.54%,"$393,731.82",11.54%
+26.,rxwd,Morgan Pacy,France,"$43,052.48","$52,033.05",82.74%,"$52,033.05",82.74%
+27.,nesk,André Oliveira,Brazil,"$42,200.00","$389,775.60",10.83%,"$389,775.60",10.83%
+28.,Paluh,Luccas Molina,Brazil,"$42,200.00","$362,877.54",11.63%,"$362,877.54",11.63%
+29.,psk1,Paulo Augusto,Brazil,"$42,200.00","$283,840.45",14.87%,"$283,840.45",14.87%
+30.,xS3xyCake,Thiago Reis,Brazil,"$42,200.00","$227,366.31",18.56%,"$227,516.31",18.55%
+31.,HSnamuringa,João Deam,Brazil,"$42,200.00","$217,073.83",19.44%,"$217,073.83",19.44%
+32.,Kantoraketti,Juhani Toivonen,Finland,"$37,418.72","$405,749.29",9.22%,"$405,749.29",9.22%
+33.,Pengu,Niclas Mouritzen,Denmark,"$37,418.72","$373,157.39",10.03%,"$373,457.39",10.02%
+34.,UUNO,Aleksi Työppönen,Finland,"$37,418.72","$172,801.67",21.65%,"$172,801.67",21.65%
+35.,ShepparD,Artur Ipatov,Russian Federation,"$36,615.68","$390,541.57",9.38%,"$390,541.57",9.38%
+36.,JoyStiCK,Danil Gabov,Russian Federation,"$36,615.68","$389,970.14",9.39%,"$390,370.14",9.38%
+37.,Dan,Danila Dontsov,Russian Federation,"$36,615.68","$319,774.42",11.45%,"$319,774.42",11.45%
+38.,Scyther,Dmitry Semenov,Russian Federation,"$36,615.68","$311,696.70",11.75%,"$311,696.70",11.75%
+39.,Cyber,Jaime Ramos,Brazil,"$35,300.00","$345,122.31",10.23%,"$345,122.31",10.23%
+40.,Bullet1,José Victor,Brazil,"$35,300.00","$222,925.39",15.83%,"$222,925.39",15.83%
+41.,MKing,Lucca Coser,Brazil,"$35,300.00","$54,186.53",65.15%,"$54,186.53",65.15%
+42.,Mag,Etienne Rousseau,Australia,"$35,190.00","$83,878.62",41.95%,"$83,878.62",41.95%
+43.,Lusty,Jason Chen,Australia,"$35,190.00","$79,158.68",44.46%,"$79,158.68",44.46%
+44.,MentalistC,Patrick Fan,China,"$35,190.00","$77,132.80",45.62%,"$77,132.80",45.62%
+45.,Tex,Tex Thompson,Australia,"$35,190.00","$39,702.27",88.63%,"$39,702.27",88.63%
+46.,Anitun,Reon Sakai,Japan,"$33,192.03","$156,649.14",21.19%,"$156,649.14",21.19%
+47.,SuzuC,Takuma Nakajima,Japan,"$33,192.03","$155,716.44",21.32%,"$155,716.44",21.32%
+48.,BlackRay,Sho Hasegawa,Japan,"$33,192.03","$155,449.14",21.35%,"$155,449.14",21.35%
+49.,Ayagator,Taiyo Hirayama,Japan,"$33,192.03","$132,789.30",25.00%,"$132,789.30",25.00%
+50.,gatorada,Hideki Nishida,Japan,"$33,192.03","$120,542.97",27.54%,"$121,677.37",27.28%
+51.,CTZN,Ben McMillian,U.K. of Great Britain and Northern Ireland,"$31,418.72","$173,671.72",18.09%,"$173,671.72",18.09%
+52.,SpeakEasy,Matin Yunos,Singapore,"$31,005.00","$74,572.80",41.58%,"$74,572.80",41.58%
+53.,HysteRiX,Jeremy Mao Xuan Tan,Singapore,"$31,005.00","$62,717.80",49.44%,"$62,717.80",49.44%
+54.,LunarmetaL,Glen Suryasaputra,Singapore,"$31,005.00","$62,425.00",49.67%,"$62,425.00",49.67%
+55.,Ysaera,Adrian Rui Wui Hong,Singapore,"$31,005.00","$53,083.92",58.41%,"$53,263.96",58.21%
+56.,jrdn,Jordan Cheng,Singapore,"$31,005.00","$51,305.00",60.43%,"$51,305.00",60.43%
+57.,BriD,Loïc Chongthep,France,"$30,911.86","$464,540.23",6.65%,"$464,540.23",6.65%
+58.,AceeZ,Maurice Erkelenz,Germany,"$29,510.49","$130,870.05",22.55%,"$130,870.05",22.55%
+59.,Korey,Lukas Zwingmann,Germany,"$29,510.49","$97,259.37",30.34%,"$97,259.37",30.34%
+60.,ripz,Jan Hucke,Germany,"$29,510.49","$76,716.23",38.47%,"$76,716.23",38.47%
+61.,karzheka,Evgeniy Petreshin,Estonia,"$27,509.38","$170,076.95",16.17%,"$170,076.95",16.17%
+62.,FoxA,Davide Bucci,Canada,"$27,000.00","$261,087.18",10.34%,"$261,097.18",10.34%
+63.,VertcL,Franklyn Cordero,United States of America,"$27,000.00","$208,948.57",12.92%,"$208,948.57",12.92%
+64.,LAXing,Gabriel Mirelez,United States of America,"$27,000.00","$191,060.00",14.13%,"$191,910.00",14.07%
+65.,EnvyTaylor,"Kim, Seong-soo",Republic of Korea,"$26,922.62","$115,821.36",23.24%,"$115,821.36",23.24%
+66.,Static,"Han, Chan-yong",Republic of Korea,"$26,080.54","$105,184.46",24.80%,"$105,184.46",24.80%
+67.,Nova,"Lee, Si-hun",Republic of Korea,"$26,080.54","$97,104.72",26.86%,"$97,104.72",26.86%
+68.,Chala,Brady Davenport,United States of America,"$25,950.00","$311,100.00",8.34%,"$311,100.00",8.34%
+69.,cameram4n,Gabriel Hespanhol,Brazil,"$25,300.00","$259,625.28",9.74%,"$259,625.28",9.74%
+70.,Novys,Daniel Novy,Brazil,"$25,300.00","$52,495.57",48.19%,"$52,495.57",48.19%
+71.,Hugzord,Vitor Hugo,Brazil,"$25,200.00","$38,779.32",64.98%,"$38,779.32",64.98%
+72.,Fabian,Fabian Hällsten​,Sweden,"$23,754.18","$340,115.99",6.98%,"$340,115.99",6.98%
+73.,risze,Valentin Liradelfo,Belgium,"$23,754.18","$128,753.59",18.45%,"$128,753.59",18.45%
+74.,SirBoss,Ferenc Mérész,Hungary,"$22,582.08","$42,920.69",52.61%,"$42,920.69",52.61%
+75.,EmoRin,Tien Lam,Australia,"$22,281.67","$42,259.44",52.73%,"$42,259.44",52.73%
+76.,Diesel,Kyle Renton,Australia,"$22,281.67","$32,016.35",69.59%,"$32,016.35",69.59%
+77.,Harp3r,"Lee, Hyo Jun",Republic of Korea,"$22,021.76","$89,257.02",24.67%,"$89,257.02",24.67%
+78.,SyAIL,"Song, Dong-seon",Republic of Korea,"$22,021.76","$81,466.99",27.03%,"$81,466.99",27.03%
+79.,Hicks,Théophile Dupont,France,"$22,000.00","$66,630.50",33.02%,"$66,630.50",33.02%
+80.,Astro,Leonardo Buzzachera,Brazil,"$21,800.00","$232,712.32",9.37%,"$232,712.32",9.37%
+81.,yoona,João Gabriel,Brazil,"$21,800.00","$61,090.22",35.68%,"$61,090.22",35.68%
+82.,ion,Ronaldo Osawa,Brazil,"$21,800.00","$49,475.97",44.06%,"$49,475.97",44.06%
+83.,Saves,Szymon Kamieniak,Poland,"$21,052.63","$88,552.42",23.77%,"$88,552.42",23.77%
+84.,Kendrew,Luke Kendrew,U.K. of Great Britain and Northern Ireland,"$21,052.63","$75,331.88",27.95%,"$75,331.88",27.95%
+85.,mav,Rafael Freitas,Brazil,"$20,200.00","$70,557.88",28.63%,"$73,044.73",27.65%
+86.,neLo,Leon Pesic,Croatia,"$20,115.41","$107,067.34",18.79%,"$107,258.76",18.75%
+87.,Ethan,Ethan Picard,Australia,"$17,582.31","$37,434.78",46.97%,"$37,434.78",46.97%
+88.,Retro,Alexander Lloyd,United States of America,"$17,400.00","$89,560.00",19.43%,"$89,866.25",19.36%
+89.,Always,Dmitry MItrahovich,Russian Federation,"$17,036.12","$234,734.02",7.26%,"$234,734.02",7.26%
+90.,Nyx,Zachary Thomas,United States of America,"$16,600.00","$50,060.00",33.16%,"$50,660.00",32.77%
+91.,Pie,Ellis Pyart,U.K. of Great Britain and Northern Ireland,"$16,000.00","$38,510.72",41.55%,"$38,635.72",41.41%
+92.,p4sh4,Pavel Kosenko,Russian Federation,"$15,134.75","$114,250.69",13.25%,"$114,250.69",13.25%
+93.,Shockwave,Artyom Simakov,Russian Federation,"$15,134.75","$100,821.37",15.01%,"$100,821.37",15.01%
+94.,Rask,Alan Ali,Russian Federation,"$15,134.75","$39,466.34",38.35%,"$39,466.34",38.35%
+95.,wTg,Artyom Morozov,Russian Federation,"$15,134.75","$36,943.06",40.97%,"$36,943.06",40.97%
+96.,Derpeh,Brandan Carr,Australia,"$13,189.75","$22,258.67",59.26%,"$22,258.67",59.26%
+97.,ShiN,Shinji Funai,Japan,"$12,917.82","$34,964.23",36.95%,"$34,964.23",36.95%
+98.,Afro,Naoki Kobayashi,Japan,"$12,917.82","$30,717.89",42.05%,"$30,717.89",42.05%
+99.,Taipon,Taiga Katagari,Japan,"$12,917.82","$27,441.34",47.07%,"$27,441.34",47.07%
+100.,ChloroForM,Takuya Kurosu,Japan,"$12,917.82","$15,638.65",82.60%,"$15,638.65",82.60%

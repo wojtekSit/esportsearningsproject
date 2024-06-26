@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esports earnings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .layer-switcher {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .layer-switcher h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .layer-switcher label {
+      display: block;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s, border 0.3s;
+    }
+
+    .layer-switcher input[type="checkbox"] {
+      display: none;
+    }
+
+    .layer-switcher input[type="checkbox"]:checked+label {
+      background: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+
+    .ol-popup {
+      position: absolute;
+      background-color: white;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      bottom: 12px;
+      left: -50px;
+      width: 280px;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .ol-popup-content {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .ol-popup-closer {
+      text-decoration: none;
+      position: absolute;
+      top: 2px;
+      right: 8px;
+    }
+
+    .ol-popup-closer:after {
+      content: "✖";
+    }
+
+    .legend {
+      position: absolute;
+      bottom: 50px;
+      left: 10px;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      font-size: 12px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    #map {
+      width: 100%;
+      height: 97%;
+    }
+
+    .layer-switcher {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    .layer-switcher h2 {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+      position: sticky;
+      top: 0;
+      background: white;
+      padding: 10px;
+      z-index: 1;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .layer-switcher .layer-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .layer-switcher input[type="checkbox"] {
+      margin-right: 10px;
+      accent-color: #007bff;
+    }
+
+    .layer-switcher label {
+      flex: 1;
+      cursor: pointer;
+    }
+
+    #map-title {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    #search-container {
+      position: absolute;
+      top: 150px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #search-input {
+      width: 200px;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    #quiz-container {
+      position: absolute;
+      top: 250px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #quiz-question {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map-title">Esports Earnings</div>
+  <div id="map" class="map">
+  </div>
+  <div id="search-container">
+    <input type="text" id="search-input" placeholder="Search for a player">
+    <button id="search-button">Search</button>
+  </div>
+  <div id="quiz-container">
+    <div id="quiz-question"></div>
+    <input type="text" id="quiz-answer" placeholder="Enter your answer">
+    <button id="quiz-submit">Submit</button>
+    <div id="quiz-result"></div>
+  </div>
+  <div class="layer-switcher" id="layer-switcher">
+    <h2>Select a layer</h2>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="Satellite" value="Satellite">
+      <label for="Satellite">pretty satellite</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="fortniteearnings2020" value="fortniteearnings2020">
+      <label for="fortniteearnings2020">Fortnite 2020</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="fortniteearnings2021" value="fortniteearnings2021">
+      <label for="fortniteearnings2021">Fortnite 2021</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="fortniteearnings2022" value="fortniteearnings2022">
+      <label for="fortniteearnings2022">Fortnite 2022</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="fortniteearnings2023" value="fortniteearnings2023">
+      <label for="fortniteearnings2023">Fortnite 2023</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="fortniteearnings2024" value="fortniteearnings2024">
+      <label for="fortniteearnings2024">Fortnite 2024</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="lolearnings2020" value="lolearnings2020">
+      <label for="lolearnings2020">League of Legends 2020</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="lolearnings2021" value="lolearnings2021">
+      <label for="lolearnings2021">League of Legends 2021</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="lolearnings2022" value="lolearnings2022">
+      <label for="lolearnings2022">League of Legends 2022</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="lolearnings2023" value="lolearnings2023">
+      <label for="lolearnings2023">League of Legends 2023</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="lolearnings2024" value="lolearnings2024">
+      <label for="lolearnings2024">League of Legends 2024</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="csgoearnings2020" value="csgoearnings2020">
+      <label for="csgoearnings2020">CS:GO 2020</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="csgoearnings2021" value="csgoearnings2021">
+      <label for="csgoearnings2021">CS:GO 2021</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="csgoearnings2022" value="csgoearnings2022">
+      <label for="csgoearnings2022">CS:GO 2022</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="csgoearnings2023" value="csgoearnings2023">
+      <label for="csgoearnings2023">CS:GO 2023</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="starcraftearnings2020" value="starcraftearnings2020">
+      <label for="starcraftearnings2020">Starcraft 2020</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="starcraftearnings2021" value="starcraftearnings2021">
+      <label for="starcraftearnings2021">Starcraft 2021</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="starcraftearnings2022" value="starcraftearnings2022">
+      <label for="starcraftearnings2022">Starcraft 2022</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="starcraftearnings2023" value="starcraftearnings2023">
+      <label for="starcraftearnings2023">Starcraft 2023</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="starcraftearnings2024" value="starcraftearnings2024">
+      <label for="starcraftearnings2024">Starcraft 2024</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="dotaearnings2020_geojson" value="dotaearnings2020_geojson">
+      <label for="dotaearnings2020_geojson">Dota 2020</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="dotaearnings2021_geojson" value="dotaearnings2021_geojson">
+      <label for="dotaearnings2021_geojson">Dota 2021</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="dotaearnings2022_geojson" value="dotaearnings2022_geojson">
+      <label for="dotaearnings2022_geojson">Dota 2022</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="dotaearnings2023_geojson" value="dotaearnings2023_geojson">
+      <label for="dotaearnings2023_geojson">Dota 2023</label>
+    </div>
+    <div class="layer-item">
+      <input type="checkbox" name="layer" id="dotaearnings2024_geojson" value="dotaearnings2024_geojson">
+      <label for="dotaearnings2024_geojson">Dota 2024</label>
+    </div>
+  </div>
+  <div class="legend" id="legend">
+    <h2>Legend</h2>
+    <p>number of players from a region</p>
+    <div class="legend-item">
+      <div class="legend-color" style="background:  #fff5f0;"></div>
+      <span>1-6</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #fcbea5;"></div>
+      <span>6-10</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #fb7050;"></div>
+      <span>11-20</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #d32020;"></div>
+      <span>21-50</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-color" style="background: #67000d;"></div>
+      <span>51-100</span>
+    </div>
+  </div>
+  <div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content" class="ol-popup-content"></div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

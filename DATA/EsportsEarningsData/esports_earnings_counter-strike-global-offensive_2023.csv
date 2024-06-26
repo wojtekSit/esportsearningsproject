@@ -1,0 +1,101 @@
+Order,Player ID,Player Name,Country,Total earnings(year),Total Earnings(game),Percentage of Game,Total(Overall),Percentage of Total
+1.,NiKo,Nikola Kovač,Bosnia & Herzegovina,"$210,700.00","$1,300,569.23",16.20%,"$1,341,091.80",15.71%
+2.,huNter,Nemanja Kovač,Bosnia & Herzegovina,"$210,700.00","$698,500.65",30.16%,"$739,000.65",28.51%
+3.,m0NESY,Ilya Osipov,Russian Federation,"$210,700.00","$401,117.61",52.53%,"$442,317.61",47.64%
+4.,HooXi,Rasmus Nielsen,Denmark,"$210,700.00","$397,399.70",53.02%,"$437,899.70",48.12%
+5.,sjuush,Rasmus Beck,Denmark,"$146,000.00","$617,163.09",23.66%,"$639,163.09",22.84%
+6.,cadiaN,Casper Møller,Denmark,"$146,000.00","$614,245.73",23.77%,"$623,345.73",23.42%
+7.,stavn,Martin Lund,Denmark,"$146,000.00","$556,137.63",26.25%,"$563,137.63",25.93%
+8.,TeSeS,René Madsen,Denmark,"$146,000.00","$540,740.92",27.00%,"$562,740.92",25.94%
+9.,Jabbi,Jakob Nygaard,Denmark,"$146,000.00","$286,192.08",51.01%,"$293,192.08",49.80%
+10.,flameZ,Shahar Shushan,Israel,"$125,866.67","$235,218.06",53.51%,"$398,518.06",31.58%
+11.,siuhy,Kamil Szkaradek,Poland,"$96,100.00","$148,586.55",64.68%,"$227,486.55",42.24%
+12.,iM,Ivan Mihai,Romania,"$92,200.00","$125,407.34",73.52%,"$256,707.34",35.92%
+13.,nafany,Vladislav Gorshkov,Russian Federation,"$86,366.67","$608,833.92",14.19%,"$638,867.03",13.52%
+14.,Jame,Dzhami Ali,Russian Federation,"$78,000.00","$607,867.72",12.83%,"$693,667.72",11.24%
+15.,FL1T,Evgeniy Lebedev,Russian Federation,"$78,000.00","$373,461.05",20.89%,"$459,961.05",16.96%
+16.,fame,Pyotr Bolyshev,Russian Federation,"$78,000.00","$251,455.10",31.02%,"$337,255.10",23.13%
+17.,acoR,Frederik Gyldstrand,Denmark,"$76,700.00","$312,184.72",24.57%,"$324,284.72",23.65%
+18.,Qikert,Aleksei Golubev,Kazakhstan,"$72,000.00","$604,154.13",11.92%,"$604,637.46",11.91%
+19.,s1mple,Oleksandr Kostyljev,Ukraine,"$70,800.00","$1,718,355.32",4.12%,"$1,719,355.32",4.12%
+20.,isak,Isak Fahlén,Sweden,"$63,789.79","$93,612.28",68.14%,"$106,312.28",60.00%
+21.,Keoz,Nicolas Dgus,Belgium,"$63,700.00","$131,835.34",48.32%,"$143,970.34",44.25%
+22.,Mir,Nikolay Bityukov,Russian Federation,"$60,750.00","$271,105.96",22.41%,"$359,105.96",16.92%
+23.,Buzz,Christian Andersen,Denmark,"$58,200.00","$80,065.91",72.69%,"$92,065.91",63.22%
+24.,dev1ce,Nicolai Reedtz,Denmark,"$57,800.00","$1,981,531.54",2.92%,"$2,001,654.30",2.89%
+25.,blameF,Benjamin Bremer,Denmark,"$57,800.00","$312,236.08",18.51%,"$327,236.08",17.66%
+26.,shalfey,Alexandr Marenov,Russian Federation,"$55,390.00","$98,049.66",56.49%,"$104,942.52",52.78%
+27.,r3salt,Evgeny Frolov,Russian Federation,"$55,390.00","$58,640.17",94.46%,"$85,283.03",64.95%
+28.,kRaSnaL,Szymon Mrozek,Poland,"$53,400.00","$85,875.67",62.18%,"$127,125.67",42.01%
+29.,Jimpphat,Jimi Salo,Finland,"$53,100.00","$70,532.74",75.28%,"$145,432.74",36.51%
+30.,Woro2k,Volodymyr Veletnjuk,Ukraine,"$52,400.00","$96,317.98",54.40%,"$137,217.98",38.19%
+31.,DemQQ,Sergiy Demchenko,Ukraine,"$52,400.00","$74,853.53",70.00%,"$114,853.53",45.62%
+32.,sdy,Victor Orudzhev,Ukraine,"$52,200.00","$298,155.25",17.51%,"$337,155.25",15.48%
+33.,TRAVIS,Aleksandr Timkiv,Russian Federation,"$49,900.00","$89,929.25",55.49%,"$101,229.25",49.29%
+34.,Boombl4,Kirill Sergeyevich Mikhailov,Russian Federation,"$49,572.00","$1,098,738.54",4.51%,"$1,141,538.54",4.34%
+35.,Jerry,Andrey Mehryakov,Russian Federation,"$49,300.00","$236,998.12",20.80%,"$237,531.45",20.76%
+36.,Krad,Vladislav Kravchenko,Russian Federation,"$49,300.00","$167,492.42",29.43%,"$176,024.74",28.01%
+37.,zorte,Alexander Zogodirenko,Russian Federation,"$49,300.00","$129,422.79",38.09%,"$159,455.90",30.92%
+38.,deko,Denis Zhukov,Russian Federation,"$48,986.00","$81,283.76",60.27%,"$128,858.76",38.02%
+39.,Forester,Igor Bezotecheskiy,Russian Federation,"$48,400.00","$169,698.27",28.52%,"$180,998.27",26.74%
+40.,NickelBack,Alexey Trofimov,Russian Federation,"$48,400.00","$170,437.67",28.40%,"$177,037.67",27.34%
+41.,NAF,Keith Markovic,Canada,"$43,733.20","$1,228,382.06",3.56%,"$1,233,682.06",3.54%
+42.,YEKINDAR,Mareks Gaļinskis,Latvia,"$43,733.20","$427,489.57",10.23%,"$432,589.57",10.11%
+43.,oSee,Joshua Ohm,United States of America,"$43,733.20","$249,763.06",17.51%,"$249,763.06",17.51%
+44.,Krimbo,Karim Moussa,Germany,"$40,493.91","$122,307.17",33.11%,"$170,707.17",23.72%
+45.,npl,Andrij Kukharsjkyj,Ukraine,"$37,500.00","$45,030.60",83.28%,"$45,630.60",82.18%
+46.,jkaem,Joakim Myrbostad,Norway,"$37,333.33","$231,224.51",16.15%,"$252,924.51",14.76%
+47.,nawwk,Tim Jonasson,Sweden,"$37,333.33","$126,372.07",29.54%,"$148,072.07",25.21%
+48.,kyxsan,Damjan Stoilkovski,The former Yugoslav Republic of Macedonia,"$37,333.33","$66,308.24",56.30%,"$94,657.47",39.44%
+49.,STYKO,Martin Styk,Slovakia,"$36,333.33","$371,202.41",9.79%,"$377,202.41",9.63%
+50.,BOROS,Mohammad Malhas,Jordan,"$36,200.00","$65,832.43",54.99%,"$83,932.43",43.13%
+51.,Altekz,Alexander Givskov,Denmark,"$35,908.87","$47,906.36",74.96%,"$83,587.42",42.96%
+52.,br0,Alexander Bro,Denmark,"$34,786.43","$90,682.92",38.36%,"$132,182.92",26.32%
+53.,tabseN,Johannes Wodarz,Germany,"$33,828.57","$433,472.45",7.80%,"$481,547.98",7.02%
+54.,gla1ve,Lukas Rossander,Denmark,"$33,300.00","$1,869,042.41",1.78%,"$1,892,967.40",1.76%
+55.,hades,Aleksander Miskiewicz,Poland,"$33,080.54","$139,383.47",23.73%,"$155,834.49",21.23%
+56.,Goofy,Krzysiek Gorski,Poland,"$33,080.54","$80,016.61",41.34%,"$96,467.63",34.29%
+57.,mynio,Wiktor Kruk,Poland,"$33,080.54","$71,710.79",46.13%,"$73,710.79",44.88%
+58.,Kylar,Kacper Walukiewicz,Poland,"$33,080.54","$49,669.38",66.60%,"$66,120.40",50.03%
+59.,KEi,Kamil Pietkun,Poland,"$33,080.54","$60,696.11",54.50%,"$64,147.13",51.57%
+60.,zont1x,Myroslav Plakhotia,Ukraine,"$32,850.00","$46,488.47",70.66%,"$181,738.47",18.08%
+61.,Donk,Danil Kryshkovets,Russian Federation,"$32,850.00","$42,269.60",77.72%,"$179,094.60",18.34%
+62.,ArtFr0st,Artem Kharitonov,Russian Federation,"$32,850.00","$42,905.31",76.56%,"$86,113.64",38.15%
+63.,nitr0,Nicholas Cannella,United States of America,"$32,633.20","$1,058,468.13",3.08%,"$1,102,508.13",2.96%
+64.,exit,Raphael Lacerda,Brazil,"$30,965.93","$106,301.68",29.13%,"$135,301.68",22.89%
+65.,brnz4n,Breno Poletto,Brazil,"$30,965.93","$56,168.40",55.13%,"$85,168.40",36.36%
+66.,insani,Felipe Yuji,Brazil,"$30,965.93","$31,338.78",98.81%,"$60,338.78",51.32%
+67.,JDC,Jon de Castro,Germany,"$30,500.00","$131,115.14",23.26%,"$141,815.14",21.51%
+68.,saffee,Rafael Costa,Brazil,"$30,365.93","$119,398.51",25.43%,"$148,515.09",20.45%
+69.,drop,André Abreu,Brazil,"$30,365.93","$115,026.75",26.40%,"$144,026.75",21.08%
+70.,1NTEL,Nestor Tanić,Serbia,"$30,000.00","$94,706.32",31.68%,"$94,904.43",31.61%
+71.,b0RUP,Johannes Borup,Denmark,"$29,621.76","$206,102.39",14.37%,"$219,085.58",13.52%
+72.,volt,Sebastian Maloș,U.K. of Great Britain and Northern Ireland,"$29,576.89","$46,474.17",63.64%,"$58,174.17",50.84%
+73.,magixx,Boris Vorobiev,Russian Federation,"$28,200.00","$222,851.66",12.65%,"$358,976.66",7.86%
+74.,twenty3,Alexandra Timonina,Russian Federation,"$28,200.00","$64,743.22",43.56%,"$75,043.22",37.58%
+75.,oskar,Tomáš Šťastný,Czech Republic,"$28,046.19","$394,719.63",7.11%,"$402,485.85",6.97%
+76.,Staehr,Victor Staehr,Denmark,"$27,900.00","$49,373.57",56.51%,"$68,373.57",40.81%
+77.,latt1kk,Vladislav Vydrin,Russian Federation,"$27,320.00","$29,495.17",92.63%,"$34,836.56",78.42%
+78.,Chopper,Leonid Vishnyakov,Russian Federation,"$27,200.00","$272,576.78",9.98%,"$407,826.78",6.67%
+79.,Lack1,Viktor Boldyrev,Kazakhstan,"$25,320.00","$127,925.11",19.79%,"$172,700.11",14.66%
+80.,arT,Andrei Piovezan,Brazil,"$25,300.00","$337,873.69",7.49%,"$369,149.45",6.85%
+81.,yuurih,Yuri Santos,Brazil,"$25,300.00","$335,449.66",7.54%,"$367,725.42",6.88%
+82.,kscerato,Kaike Cerato,Brazil,"$25,300.00","$331,762.42",7.63%,"$364,038.18",6.95%
+83.,FalleN,Gabriel Toledo,Brazil,"$25,000.00","$1,175,586.54",2.13%,"$1,215,765.79",2.06%
+84.,chelo,Marcelo Cespedes,Brazil,"$25,000.00","$116,540.45",21.45%,"$128,816.21",19.41%
+85.,Alex,Alejandro Masanet Candela,Spain,"$24,820.97","$126,856.65",19.57%,"$137,378.08",18.07%
+86.,mopoz,Alejandro Fernández,Spain,"$24,820.97","$120,599.46",20.58%,"$124,170.89",19.99%
+87.,Martinez,Antonio Martinez Sánchez,Spain,"$24,820.97","$28,166.57",88.12%,"$31,538.00",78.70%
+88.,max,Maximiliano Gonzalez,Uruguay,"$24,752.60","$68,903.80",35.92%,"$70,703.80",35.01%
+89.,dgt,Franco Garcia,Uruguay,"$24,752.60","$65,427.95",37.83%,"$67,227.95",36.82%
+90.,try,Santino Rigal,Argentina,"$24,752.60","$59,528.50",41.58%,"$59,528.50",41.58%
+91.,dav1d,David Tapia Maldonado,Chile,"$24,752.60","$38,813.69",63.77%,"$47,113.69",52.54%
+92.,buda,Nicolás Kramer,Argentina,"$24,752.60","$29,112.97",85.02%,"$30,912.97",80.07%
+93.,F1KU,Maciej Miklas,Poland,"$24,499.87","$106,999.29",22.90%,"$127,282.62",19.25%
+94.,KENSI,Aleksandr Gurkin,Russian Federation,"$24,320.00","$99,208.74",24.51%,"$141,983.74",17.13%
+95.,Norwi,Evgeny Ermolin,Russian Federation,"$24,320.00","$60,499.22",40.20%,"$106,274.22",22.88%
+96.,SELLTER,Ivan Miroshnikov,Russian Federation,"$24,320.00","$32,543.48",74.73%,"$52,443.48",46.37%
+97.,roejJ,Fredrik Jørgensen,Denmark,"$24,200.00","$292,542.44",8.27%,"$320,723.50",7.55%
+98.,vilga,Ksenia Klyuenkova,Russian Federation,"$24,200.00","$112,393.92",21.53%,"$122,693.92",19.72%
+99.,tory,Victoria Kazieva,Russian Federation,"$24,200.00","$64,545.13",37.49%,"$74,845.13",32.33%
+100.,XANTARES,İsmailсan Dörtkardeş,Turkey,"$23,466.67","$430,735.93",5.45%,"$453,435.93",5.18%

@@ -1,0 +1,101 @@
+Order,Player ID,Player Name,Country,Total earnings(year),Total Earnings(game),Percentage of Game,Total(Overall),Percentage of Total
+1.,Heaven,"Kim, Tae Sung",Republic of Korea,"$9,416.18","$112,627.79",8.36%,"$112,627.79",8.36%
+2.,Salute,"Woo, Je hyeon",Republic of Korea,"$5,794.57","$351,443.80",1.65%,"$351,443.80",1.65%
+3.,Gyumin,"Sim, Gyu Min",Republic of Korea,"$5,794.57","$37,288.60",15.54%,"$37,288.60",15.54%
+4.,Bean,"Oh, Won Bin",Republic of Korea,"$5,794.57","$10,586.72",54.73%,"$10,586.72",54.73%
+5.,Heather,"Cha, Ji hun",Republic of Korea,"$5,794.57","$9,209.34",62.92%,"$9,209.34",62.92%
+6.,DimasTy,Setthawut Phula,Thailand,"$5,000.00","$5,000.00",100.00%,"$5,000.00",100.00%
+7.,J4ME,Jakkrawut Daungsri,Thailand,"$5,000.00","$5,000.00",100.00%,"$5,000.00",100.00%
+8.,RiwZ,Phongsathon Khrueakiratitham,Thailand,"$5,000.00","$5,000.00",100.00%,"$5,000.00",100.00%
+9.,ShanKs,Dontakon Lamool,Thailand,"$5,000.00","$5,000.00",100.00%,"$5,000.00",100.00%
+10.,ThanawatTH,Thanawat Jantem,Thailand,"$3,750.00","$59,343.11",6.32%,"$59,343.11",6.32%
+11.,Ezqelusia,Wasu Surapakornniti,Thailand,"$3,750.00","$35,638.93",10.52%,"$36,054.99",10.40%
+12.,Thunderz,Thanathon Tongthanachot,Thailand,"$3,750.00","$13,170.34",28.47%,"$13,170.34",28.47%
+13.,Flukky,Patsakorn Kitchalong,Thailand,"$3,750.00","$12,721.92",29.48%,"$12,721.92",29.48%
+14.,Pureboy,Junya Taniguchi,Japan,"$3,330.00","$49,501.78",6.73%,"$49,501.78",6.73%
+15.,Sylphia,"Yamasaki, Takumi",Japan,"$3,330.00","$37,191.05",8.95%,"$37,191.05",8.95%
+16.,Kein,"Kein, Sera",Japan,"$3,330.00","$23,886.44",13.94%,"$23,886.44",13.94%
+17.,xKe1,"Ohtani, Kei",Japan,"$3,330.00","$7,648.75",43.54%,"$7,648.75",43.54%
+18.,BatulinS,Aleksandr Batulin,Russian Federation,"$3,000.00","$445,827.43",0.67%,"$452,327.43",0.66%
+19.,Lu,Kirill Lukyanov,Russian Federation,"$3,000.00","$430,206.18",0.70%,"$430,206.18",0.70%
+20.,Perfect1ks,Dmytrii Dubenyuk,Ukraine,"$3,000.00","$409,544.18",0.73%,"$409,544.18",0.73%
+21.,xmpL,Artem Adarkin,Russian Federation,"$3,000.00","$385,568.10",0.78%,"$385,568.10",0.78%
+22.,Seoul,"Cho, Gi Yeol",Republic of Korea,"$2,897.28","$423,864.60",0.68%,"$423,864.60",0.68%
+23.,Starlord,"Lee, Jong Ho",Republic of Korea,"$2,897.28","$148,337.29",1.95%,"$148,337.29",1.95%
+24.,Americano,"Jung, Young Hun",Republic of Korea,"$2,897.28","$39,377.92",7.36%,"$39,377.92",7.36%
+25.,Gyuyeon,"Choi, Gyu-yeon",Republic of Korea,"$2,897.28","$16,286.56",17.79%,"$16,286.56",17.79%
+26.,kkachi,"Bae, Ho Jin",Republic of Korea,"$2,897.28","$2,897.28",100.00%,"$2,897.28",100.00%
+27.,Noardra,Chanapong Srilamai,Thailand,"$2,000.00","$94,543.02",2.12%,"$94,543.02",2.12%
+28.,Conaxy,Krissada Mukmongkol,Thailand,"$2,000.00","$85,020.40",2.35%,"$85,020.40",2.35%
+29.,Eaddy,Atip Sangphet,Thailand,"$2,000.00","$83,948.70",2.38%,"$83,948.70",2.38%
+30.,Kannonix,Sakan Sukrungruang,Thailand,"$2,000.00","$2,000.00",100.00%,"$2,000.00",100.00%
+31.,Ibiza,Jord van Geldere,Netherlands,"$1,995.00","$320,344.63",0.62%,"$320,344.63",0.62%
+32.,Qwizzy,Andrey Pobedinskiy,Russian Federation,"$1,995.00","$69,345.06",2.88%,"$69,345.06",2.88%
+33.,NIXZYEE,Nino Mikec,Croatia,"$1,995.00","$12,192.80",16.36%,"$12,192.80",16.36%
+34.,Lukarux,Luka Rukavina,Croatia,"$1,875.00","$45,228.75",4.15%,"$45,228.75",4.15%
+35.,Feyerist,Anton Dutchak,Ukraine,"$1,875.00","$7,397.47",25.35%,"$7,397.47",25.35%
+36.,Hakatory,Vitalii Shaida,Ukraine,"$1,875.00","$3,812.50",49.18%,"$3,812.50",49.18%
+37.,DIFX,Vladyslav Nevykhozhyi,Ukraine,"$1,875.00","$2,562.50",73.17%,"$2,562.50",73.17%
+38.,SoseD,Serhii Zubkov,Ukraine,"$1,875.00","$2,500.00",75.00%,"$2,500.00",75.00%
+39.,Stella,"Lee, Ji-soo",Republic of Korea,"$1,810.80","$9,206.63",19.67%,"$9,206.63",19.67%
+40.,ROY,"Kim, Min Gil",Republic of Korea,"$1,810.80","$5,624.47",32.20%,"$5,624.47",32.20%
+41.,HAMMER,"Lee, Young-hyeon",Republic of Korea,"$1,810.80","$4,668.72",38.79%,"$4,668.72",38.79%
+42.,Nyeong,"Yu, Dae Nyeong",Republic of Korea,"$1,810.80","$1,810.80",100.00%,"$1,810.80",100.00%
+43.,Luke12,Luke Newey,Australia,"$1,750.00","$224,670.67",0.78%,"$224,670.67",0.78%
+44.,Fludd,Lachlan Thompson,Australia,"$1,750.00","$198,490.03",0.88%,"$198,490.03",0.88%
+45.,Ykikamucow,Nathan lynham,Australia,"$1,750.00","$111,522.72",1.57%,"$111,522.72",1.57%
+46.,SneakAttack,Matthew Buschick,United States of America,"$1,750.00","$3,950.00",44.30%,"$4,450.00",39.33%
+47.,GoNa,"Ji, Hyun Woo",Republic of Korea,"$1,503.37","$1,503.37",100.00%,"$1,503.37",100.00%
+48.,Orca,"Lee, Jang Won",Republic of Korea,"$1,503.37","$1,503.37",100.00%,"$1,503.37",100.00%
+49.,Rascal,"Song, Min Seo",Republic of Korea,"$1,503.37","$1,503.37",100.00%,"$1,503.37",100.00%
+50.,Solution,"Park, Seung Chan",Republic of Korea,"$1,503.37","$1,503.37",100.00%,"$1,503.37",100.00%
+51.,Xquad,"Kwon, Sung Hyun",Republic of Korea,"$1,503.37","$1,503.37",100.00%,"$1,503.37",100.00%
+52.,LongK,"Phan, Phi Long",Vietnam,"$1,500.00","$33,901.25",4.42%,"$33,901.25",4.42%
+53.,NielT,"Nguyen, Manh Tri",Vietnam,"$1,500.00","$29,358.36",5.11%,"$29,401.36",5.10%
+54.,T1706,"Dang, Thanh Tai",Vietnam,"$1,500.00","$1,750.00",85.71%,"$1,750.00",85.71%
+55.,TriDuy,"Tran, Tri Duy",Vietnam,"$1,500.00","$1,750.00",85.71%,"$1,750.00",85.71%
+56.,Che4kz1nG,Prerasin Ruttanachiyakun,Thailand,"$1,375.00","$15,816.37",8.69%,"$15,816.37",8.69%
+57.,LeonzQ,Kittichai Partumtong,Thailand,"$1,375.00","$8,357.55",16.45%,"$8,357.55",16.45%
+58.,PetDrET,Patcharapol Punyawiwat,Thailand,"$1,375.00","$6,051.71",22.72%,"$6,051.71",22.72%
+59.,OHPONDZ,Rattana Soontornpornnawin,Thailand,"$1,375.00","$3,047.26",45.12%,"$3,047.26",45.12%
+60.,OMOCHIDATEN,- -,Japan,"$1,360.00","$1,410.00",96.45%,"$1,410.00",96.45%
+61.,ouka,- -,Japan,"$1,360.00","$1,360.00",100.00%,"$1,360.00",100.00%
+62.,Shinnosuke,- -,Japan,"$1,360.00","$1,360.00",100.00%,"$1,360.00",100.00%
+63.,CodeMarco,Bünyamin Yalçınkaya,Turkey,"$1,250.00","$143,726.66",0.87%,"$143,726.66",0.87%
+64.,RossitedJR,Sarayut Ditkhammoh,Thailand,"$1,250.00","$77,763.73",1.61%,"$77,763.73",1.61%
+65.,Pathompong,Pathomphong Sritikham,Thailand,"$1,250.00","$57,600.67",2.17%,"$57,600.67",2.17%
+66.,Thanadol,Thanadol Jutisuksant,Thailand,"$1,250.00","$46,593.75",2.68%,"$46,593.75",2.68%
+67.,Hatsawat,Hatsawat Leardkawewong,Thailand,"$1,250.00","$35,943.75",3.48%,"$35,943.75",3.48%
+68.,TheMad,Yunus Ağaç,Turkey,"$1,250.00","$25,695.50",4.86%,"$25,695.50",4.86%
+69.,Quetpa,Tugay Demirel,Turkey,"$1,250.00","$21,143.00",5.91%,"$21,143.00",5.91%
+70.,RuerN,Salih Demirbaş Ahmet,Turkey,"$1,250.00","$20,568.75",6.08%,"$20,568.75",6.08%
+71.,LinShuNN,"Zeng, Ke",China,"$1,141.09","$206,771.54",0.55%,"$206,771.54",0.55%
+72.,77owo,"Yang, Yuxuan",China,"$1,141.09","$116,064.99",0.98%,"$116,064.99",0.98%
+73.,PaoPao,"Wang, Zijun",China,"$1,141.09","$94,287.89",1.21%,"$94,287.89",1.21%
+74.,Gedrox,Aliaksandr Puchko,Belarus,"$1,125.00","$4,457.66",25.24%,"$4,457.66",25.24%
+75.,hallomybad,Artem Baskakov,Russian Federation,"$1,125.00","$4,020.16",27.98%,"$4,020.16",27.98%
+76.,ext4nz,Kirill Lysenko,Ukraine,"$1,125.00","$3,125.00",36.00%,"$3,125.00",36.00%
+77.,Layosh,Aleksey Shvedov,Russian Federation,"$1,125.00","$3,125.00",36.00%,"$3,125.00",36.00%
+78.,guresy,- -,Japan,"$1,110.00","$1,110.00",100.00%,"$1,110.00",100.00%
+79.,Hoshi,"-, -",Republic of Korea,"$1,110.00","$1,110.00",100.00%,"$1,110.00",100.00%
+80.,Hunt,"Kim, Ye Chan",Republic of Korea,"$1,110.00","$1,110.00",100.00%,"$1,110.00",100.00%
+81.,Jeemzz,Jim Gunnar Eliassen,Norway,"$1,100.00","$414,678.07",0.27%,"$414,678.07",0.27%
+82.,Gustav,Gustav Lykke Blønd,Denmark,"$1,100.00","$237,638.67",0.46%,"$238,138.67",0.46%
+83.,Curexi,Timi Henry Valtteri Tenhula,Finland,"$1,100.00","$194,030.70",0.57%,"$194,030.70",0.57%
+84.,Fexx,Christopher Stephen Wheddon,U.K. of Great Britain and Northern Ireland,"$1,100.00","$184,013.82",0.60%,"$184,013.82",0.60%
+85.,Himass,"La, Phuong Tien Dat",Vietnam,"$1,000.00","$133,744.38",0.75%,"$133,744.38",0.75%
+86.,HaiSaki,"Tran, Trinh Dong Hai",Vietnam,"$1,000.00","$129,839.87",0.77%,"$129,839.87",0.77%
+87.,Sololzy,"Lương, Ngọc Hiển",Vietnam,"$1,000.00","$93,481.06",1.07%,"$93,481.06",1.07%
+88.,Taikonn,"Hà, Hữu Tài",Vietnam,"$1,000.00","$93,093.65",1.07%,"$93,128.10",1.07%
+89.,HuangLong,"Le, Hoang Long",Vietnam,"$1,000.00","$1,000.00",100.00%,"$1,000.00",100.00%
+90.,CiNVe,Hiroto Takahara,Japan,$999.00,"$24,928.27",4.01%,"$24,928.27",4.01%
+91.,runaxp,Naoki Ichimasa,Japan,$999.00,"$14,181.47",7.04%,"$14,181.47",7.04%
+92.,Feaven,"Ogiso, Shouta",Japan,$999.00,"$3,749.00",26.65%,"$3,749.00",26.65%
+93.,T1aRe,- -,Japan,$999.00,$999.00,100.00%,$999.00,100.00%
+94.,Aitzy,Ludvik Greger Jahnsen,Norway,$900.00,"$413,448.12",0.22%,"$413,448.12",0.22%
+95.,vard,Alexander John Gouge,U.K. of Great Britain and Northern Ireland,$900.00,"$265,372.45",0.34%,"$265,372.45",0.34%
+96.,TeaBone,Luke Alexander Crafer,U.K. of Great Britain and Northern Ireland,$900.00,"$244,346.93",0.37%,"$244,346.93",0.37%
+97.,Beami,Benjamin Steffensen,Denmark,$900.00,"$180,926.01",0.50%,"$180,926.01",0.50%
+98.,SixSackz,Sarayut Paideen,Thailand,$875.00,"$28,885.48",3.03%,"$28,885.48",3.03%
+99.,Banana0ne,Pongsiri Chompoochan,Thailand,$875.00,"$3,583.18",24.42%,"$3,583.18",24.42%
+100.,rEiiz,Nattawat Bunsiriwan,Thailand,$875.00,"$1,808.85",48.37%,"$1,808.85",48.37%

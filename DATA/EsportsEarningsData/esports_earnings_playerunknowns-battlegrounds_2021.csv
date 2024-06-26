@@ -1,0 +1,101 @@
+Order,Player ID,Player Name,Country,Total earnings(year),Total Earnings(game),Percentage of Game,Total(Overall),Percentage of Total
+1.,MMing,"Chen, Yinan",China,"$413,496.52","$655,842.27",63.05%,"$655,842.27",63.05%
+2.,Nannnnn,"Li, Nanjiang",China,"$391,280.15","$589,465.66",66.38%,"$589,465.66",66.38%
+3.,ZpYan1,"Zhou, Pinyan",China,"$389,940.12","$601,248.68",64.86%,"$601,248.68",64.86%
+4.,HS,"Wang, Yanwen",China,"$387,453.40","$568,638.27",68.14%,"$568,638.27",68.14%
+5.,TGLTN,James Giezen,Australia,"$379,728.00","$688,393.75",55.16%,"$689,193.75",55.10%
+6.,hwinn,Hunter Winn,United States of America,"$364,478.00","$682,636.94",53.39%,"$683,596.94",53.32%
+7.,Shrimzy,Tristan Nowicky,United States of America,"$364,478.00","$663,240.69",54.95%,"$663,240.69",54.95%
+8.,M1ME,Austin Scherff,United States of America,"$364,228.00","$635,070.19",57.35%,"$635,070.19",57.35%
+9.,Kickstart,Matt Smith,United States of America,"$288,257.75","$442,836.44",65.09%,"$442,836.44",65.09%
+10.,Roth,Dylan Short,United States of America,"$277,747.50","$337,334.53",82.34%,"$337,334.53",82.34%
+11.,Shinboi,Nolan Burdick,Canada,"$276,070.25","$339,866.75",81.23%,"$339,866.75",81.23%
+12.,Poonage,Brent Mullany,United States of America,"$276,070.25","$330,927.25",83.42%,"$330,927.25",83.42%
+13.,Pio,"Cha, Seung Hoon",Republic of Korea,"$260,576.50","$905,087.92",28.79%,"$905,087.92",28.79%
+14.,Inonix,"Na, Hee Joo",Republic of Korea,"$258,160.40","$641,890.92",40.22%,"$641,890.92",40.22%
+15.,ESTH3R,"Go, Jeong-wan",Republic of Korea,"$248,760.40","$871,439.11",28.55%,"$871,858.71",28.53%
+16.,Alphaca,"Bang, Ji Min",Republic of Korea,"$216,026.65","$247,053.40",87.44%,"$247,053.40",87.44%
+17.,Loki,"Park, Jung Young",Republic of Korea,"$200,818.24","$1,229,651.79",16.33%,"$1,229,651.79",16.33%
+18.,Summer,"Yu, Chuan",China,"$170,604.93","$417,052.39",40.91%,"$417,052.39",40.91%
+19.,EviLLee,"Li, Jixing",China,"$170,604.93","$230,751.93",73.93%,"$230,751.93",73.93%
+20.,Tank,"Zhong, Xin Ke",China,"$170,604.93","$229,534.11",74.33%,"$229,534.11",74.33%
+21.,LingD,"Gu, Lei",China,"$170,604.93","$222,932.73",76.53%,"$222,932.73",76.53%
+22.,Lu,Kirill Lukyanov,Russian Federation,"$166,553.48","$430,206.18",38.71%,"$430,206.18",38.71%
+23.,BatulinS,Aleksandr Batulin,Russian Federation,"$164,053.48","$445,827.43",36.80%,"$452,327.43",36.27%
+24.,spyrro,Yaroslav Kuvichko,Ukraine,"$164,053.48","$427,117.18",38.41%,"$427,117.18",38.41%
+25.,PaG3,Paavo Voutilainen,Finland,"$154,442.84","$223,753.80",69.02%,"$223,753.80",69.02%
+26.,TeaBone,Luke Alexander Crafer,U.K. of Great Britain and Northern Ireland,"$151,942.84","$244,346.93",62.18%,"$244,346.93",62.18%
+27.,Forever,"Wu, Zheng",China,"$146,984.97","$308,128.59",47.70%,"$308,128.59",47.70%
+28.,Beami,Benjamin Steffensen,Denmark,"$144,442.84","$180,926.01",79.84%,"$180,926.01",79.84%
+29.,CRAZY112,"Dai, Aoqi",China,"$139,159.97","$271,522.81",51.25%,"$271,522.81",51.25%
+30.,Curexi,Timi Henry Valtteri Tenhula,Finland,"$137,875.92","$194,030.70",71.06%,"$194,030.70",71.06%
+31.,SzylzEN,Nahuel Balseiro,Argentina,"$136,253.50","$218,084.16",62.48%,"$218,084.16",62.48%
+32.,Nowikk,Matěj Krmela,Czech Republic,"$135,003.49","$148,774.49",90.74%,"$148,774.49",90.74%
+33.,GodV,"Wei, Zhen",China,"$131,442.97","$344,731.36",38.13%,"$399,025.11",32.94%
+34.,xxxLu,"Wei, Daying",China,"$130,933.34","$335,194.39",39.06%,"$335,194.39",39.06%
+35.,Perfect1ks,Dmytrii Dubenyuk,Ukraine,"$125,891.48","$409,544.18",30.74%,"$409,544.18",30.74%
+36.,sparkingg,Pedro Ribeiro,Brazil,"$120,767.00","$185,818.50",64.99%,"$185,818.50",64.99%
+37.,PigNan,"Liu, Jinnan",China,"$118,258.30","$166,221.37",71.15%,"$166,221.37",71.15%
+38.,CodeMarco,Bünyamin Yalçınkaya,Turkey,"$114,944.41","$143,726.66",79.97%,"$143,726.66",79.97%
+39.,Smashbae,Furkan Şanlı,Turkey,"$114,944.41","$141,927.41",80.99%,"$141,927.41",80.99%
+40.,mert,Mert Güngör,Turkey,"$114,944.41","$136,321.51",84.32%,"$136,321.51",84.32%
+41.,Mitraleius,Şamil Özkan,Turkey,"$114,944.41","$130,571.51",88.03%,"$130,571.51",88.03%
+42.,Luke12,Luke Newey,Australia,"$114,860.35","$224,670.67",51.12%,"$224,670.67",51.12%
+43.,pentalol,Andrew Franco,United States of America,"$114,610.35","$168,105.54",68.18%,"$168,105.54",68.18%
+44.,Purdy,Kurtis Bond,United States of America,"$112,110.35","$221,027.54",50.72%,"$221,027.54",50.72%
+45.,aLOW,Aaron Lommen,United States of America,"$112,110.35","$217,494.29",51.55%,"$217,494.29",51.55%
+46.,WICK2D,"Kim, Jin Hyung",Republic of Korea,"$107,858.47","$152,180.68",70.88%,"$152,180.68",70.88%
+47.,RagnarLoth,Franco Labrador,Uruguay,"$97,339.75","$124,076.66",78.45%,"$124,076.66",78.45%
+48.,Aixleft,"Zuo, Zixuan",China,"$95,225.95","$255,475.68",37.27%,"$255,475.68",37.27%
+49.,Myl,"Ma, Yunlong",China,"$92,725.95","$154,818.91",59.89%,"$154,818.91",59.89%
+50.,Mamu,"Yang, Yang",China,"$86,725.95","$105,016.86",82.58%,"$105,016.86",82.58%
+51.,Gustav,Gustav Lykke Blønd,Denmark,"$84,611.92","$237,638.67",35.61%,"$238,138.67",35.53%
+52.,LongSkr,"Deng, Ruilong",China,"$81,328.55","$272,473.79",29.85%,"$272,473.79",29.85%
+53.,9,"Li, Hongbo",China,"$81,328.55","$154,893.95",52.51%,"$154,893.95",52.51%
+54.,fuzzface,David Tillberg,Sweden,"$80,608.50","$430,129.25",18.74%,"$431,029.25",18.70%
+55.,Aitzy,Ludvik Greger Jahnsen,Norway,"$80,608.50","$413,448.12",19.50%,"$413,448.12",19.50%
+56.,Mingz1,"Hu, XinShuai",China,"$80,003.93","$102,114.41",78.35%,"$102,114.41",78.35%
+57.,JiaoYang,"Li, Bohang",China,"$79,197.99","$263,627.51",30.04%,"$263,627.51",30.04%
+58.,Jeemzz,Jim Gunnar Eliassen,Norway,"$76,339.31","$414,678.07",18.41%,"$414,678.07",18.41%
+59.,BoLiang,"Chen, Qicheng",China,"$75,905.30","$201,707.82",37.63%,"$201,707.82",37.63%
+60.,mxey,Anssi Pekkonen,Finland,"$73,839.31","$491,755.74",15.02%,"$491,755.74",15.02%
+61.,Ibiza,Jord van Geldere,Netherlands,"$71,339.31","$320,344.63",22.27%,"$320,344.63",22.27%
+62.,clib,Nikolaj Madsen,Denmark,"$71,339.31","$158,684.91",44.96%,"$158,684.91",44.96%
+63.,ubah,Ivan Kapustin,Russian Federation,"$64,427.75","$671,953.09",9.59%,"$676,467.77",9.52%
+64.,Xbei,"Tu, ZhanYa",China,"$63,931.11","$301,826.58",21.18%,"$301,826.58",21.18%
+65.,Salute,"Woo, Je hyeon",Republic of Korea,"$63,545.35","$351,443.80",18.08%,"$351,443.80",18.08%
+66.,SuJiu,"Yu, Lin",China,"$60,869.71","$411,419.87",14.80%,"$411,419.87",14.80%
+67.,Asura,"Jo, Sang Won",Republic of Korea,"$60,863.00","$96,035.42",63.38%,"$96,035.42",63.38%
+68.,Seoul,"Cho, Gi Yeol",Republic of Korea,"$59,611.85","$423,864.60",14.06%,"$423,864.60",14.06%
+69.,LilGhost,"Luo, Shengjun",China,"$57,042.96","$423,848.21",13.46%,"$423,848.21",13.46%
+70.,shou,"Wang, Kang",China,"$57,042.96","$344,975.83",16.54%,"$344,975.83",16.54%
+71.,Rex,"Kim, Hae Chan",Republic of Korea,"$56,611.85","$84,141.87",67.28%,"$84,141.87",67.28%
+72.,leClo,"Kang, Min-joon",Republic of Korea,"$56,611.85","$68,864.47",82.21%,"$68,864.47",82.21%
+73.,D1gg3r1,Daniel Luusua,Finland,"$56,417.00","$118,580.67",47.58%,"$118,580.67",47.58%
+74.,Rustanmar,Miro Ruotsi,Finland,"$56,417.00","$114,935.77",49.09%,"$114,935.77",49.09%
+75.,SKUIJKE,Saku Sajakoski,Finland,"$56,417.00","$95,764.07",58.91%,"$96,001.50",58.77%
+76.,Tiikzu,Olli Saarikoski,Finland,"$53,513.00","$100,118.18",53.45%,"$100,118.18",53.45%
+77.,ADDER,"Jeong, Ji Hun",Republic of Korea,"$52,464.55","$109,870.94",47.75%,"$109,870.94",47.75%
+78.,xmpL,Artem Adarkin,Russian Federation,"$48,823.23","$385,568.10",12.66%,"$385,568.10",12.66%
+79.,Snakers,Jake Winant,United States of America,"$48,070.25","$220,043.57",21.85%,"$220,043.57",21.85%
+80.,Relo,Noah Jenkins,United States of America,"$48,070.25","$202,379.19",23.75%,"$202,379.19",23.75%
+81.,Balefrost,Brendan Connors,United States of America,"$48,070.25","$132,140.57",36.38%,"$132,140.57",36.38%
+82.,YunJong,"Choi, Yun-jong",Republic of Korea,"$43,525.89","$56,592.55",76.91%,"$56,592.55",76.91%
+83.,Hansia,"Han, Sia",Republic of Korea,"$43,144.91","$84,200.45",51.24%,"$84,200.45",51.24%
+84.,Akad,"Lim, Gwang Hyun",Republic of Korea,"$41,622.91","$146,293.58",28.45%,"$146,293.58",28.45%
+85.,Renba,"Seo, Jae Young",Republic of Korea,"$41,327.05","$94,034.24",43.95%,"$94,034.24",43.95%
+86.,Noardra,Chanapong Srilamai,Thailand,"$40,929.82","$94,543.02",43.29%,"$94,543.02",43.29%
+87.,HiruZeN,Ramazan Valiullin,Russian Federation,"$40,662.00","$45,630.50",89.11%,"$45,630.50",89.11%
+88.,Nourinz,Tanaporn Udompornampai,Thailand,"$40,578.67","$146,298.46",27.74%,"$146,298.46",27.74%
+89.,FLASH,Peerapass Termkla,Thailand,"$40,578.67","$134,655.72",30.14%,"$134,655.72",30.14%
+90.,Ykikamucow,Nathan lynham,Australia,"$40,440.75","$111,522.72",36.26%,"$111,522.72",36.26%
+91.,Ronon47,Matt Lee,Australia,"$40,440.75","$75,705.97",53.42%,"$75,705.97",53.42%
+92.,vanOtica,Banyapon Kawsamrung,Thailand,"$40,386.28","$50,968.23",79.24%,"$50,968.23",79.24%
+93.,xiaohaixxxx,"Zhang, Jinhai",China,"$40,383.17","$281,538.37",14.34%,"$281,538.37",14.34%
+94.,PuuChiwz,Peerapat Kalumpan,Thailand,"$39,980.86","$151,151.20",26.45%,"$151,151.20",26.45%
+95.,Savior,"Hu, Wei-Zhong",Taiwan,"$39,359.58","$60,648.30",64.90%,"$62,858.30",62.62%
+96.,ZhenNan,"Liao, Zhen-Nan",Taiwan,"$39,359.58","$58,321.93",67.49%,"$58,321.93",67.49%
+97.,Lokslokkk,"Chan, Lok",Hong Kong,"$39,359.58","$41,781.92",94.20%,"$41,781.92",94.20%
+98.,Lambu,"Park, Chan Hyuk",Republic of Korea,"$38,827.05","$108,834.83",35.68%,"$108,834.83",35.68%
+99.,Spear,"Lee, Dong-su",Republic of Korea,"$38,827.05","$80,441.38",48.27%,"$80,441.38",48.27%
+100.,Grayyyyyy,"Zhao, Zhiyiang",China,"$38,665.45","$47,079.01",82.13%,"$47,079.01",82.13%

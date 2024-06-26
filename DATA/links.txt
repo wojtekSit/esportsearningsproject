@@ -1,0 +1,21 @@
+Dota 2
+Fortnite
+Counter-Strike: Global Offensive
+League of Legends
+Arena of Valor
+PUBG
+PUBG Mobile
+Rainbow Six Siege
+StarCraft II
+Rocket League
+
+https://www.esportsearnings.com/history/{year}/games/231-dota-2
+https://www.esportsearnings.com/history/{year}/games/554-playerunknowns-battlegrounds-mobile
+https://www.esportsearnings.com/history/{year}/games/534-fortnite
+https://www.esportsearnings.com/history/{year}/games/529-arena-of-valor
+https://www.esportsearnings.com/history/{year}/games/245-counter-strike-global-offensive
+https://www.esportsearnings.com/history/{year}/games/439-rainbow-six-siege
+https://www.esportsearnings.com/history/{year}/games/409-rocket-league
+https://www.esportsearnings.com/history/{year}/games/164-league-of-legends
+https://www.esportsearnings.com/history/{year}/games/504-playerunknowns-battlegrounds
+https://www.esportsearnings.com/history/{year}/games/151-starcraft-ii

@@ -1,0 +1,139 @@
+﻿ID;Country;Earnings;Player Count
+1.;China;$47,347,543.32;2116 Players
+2.;United States;$33,888,186.53;4777 Players
+3.;Korea, Republic of;$12,352,809.20;1221 Players
+4.;Brazil;$11,381,851.56;1573 Players
+5.;Russian Federation;$9,867,809.91;888 Players
+6.;Germany;$7,249,199.15;1217 Players
+7.;Japan;$7,019,868.08;1013 Players
+8.;Thailand;$6,238,809.40;716 Players
+9.;Denmark;$6,227,174.91;349 Players
+10.;United Kingdom;$5,908,752.91;1025 Players
+11.;France;$5,414,511.41;1182 Players
+12.;Canada;$5,069,501.19;735 Players
+13.;Viet Nam;$4,463,911.20;751 Players
+14.;Sweden;$3,969,448.25;412 Players
+15.;Indonesia;$3,451,509.97;748 Players
+16.;Australia;$3,375,216.23;833 Players
+17.;Poland;$3,347,064.94;611 Players
+18.;Taiwan, Republic of China;$3,320,829.59;384 Players
+19.;Philippines;$3,033,393.68;575 Players
+20.;Ukraine;$2,962,440.75;273 Players
+21.;Saudi Arabia;$2,929,339.69;251 Players
+22.;Peru;$2,414,545.13;224 Players
+23.;Malaysia;$2,361,007.96;566 Players
+24.;Spain;$2,271,003.73;462 Players
+25.;Israel;$2,187,845.49;43 Players
+26.;Netherlands;$2,044,821.48;380 Players
+27.;Slovakia;$2,031,889.92;106 Players
+28.;Turkey;$1,976,960.80;486 Players
+29.;North Macedonia;$1,925,399.31;40 Players
+30.;Argentina;$1,914,935.48;392 Players
+31.;Mexico;$1,890,626.87;472 Players
+32.;India;$1,849,934.44;473 Players
+33.;Finland;$1,592,045.60;302 Players
+34.;Norway;$1,449,602.58;226 Players
+35.;Italy;$1,118,417.17;294 Players
+36.;Estonia;$1,113,899.71;60 Players
+37.;Czech Republic;$998,304.46;343 Players
+38.;Portugal;$947,397.79;252 Players
+39.;Serbia;$845,838.13;102 Players
+40.;Bulgaria;$818,739.45;85 Players
+41.;Mongolia;$811,788.84;136 Players
+42.;Egypt;$796,879.02;129 Players
+43.;Latvia;$796,136.86;83 Players
+44.;Iraq;$749,680.42;57 Players
+45.;Singapore;$745,569.00;289 Players
+46.;Chile;$697,942.15;183 Players
+47.;Kyrgyzstan;$672,234.05;24 Players
+48.;Kazakhstan;$632,189.84;74 Players
+49.;Romania;$613,598.10;167 Players
+50.;Jordan;$587,150.12;47 Players
+51.;Austria;$585,556.43;90 Players
+52.;Belgium;$515,120.39;151 Players
+53.;Bosnia and Herzegovina;$465,219.24;25 Players
+54.;Belarus;$411,398.67;78 Players
+55.;Pakistan;$394,653.42;101 Players
+56.;Greece;$375,691.40;109 Players
+57.;Switzerland;$341,348.30;158 Players
+58.;Nepal;$338,405.37;74 Players
+59.;Slovenia;$320,971.49;32 Players
+60.;Morocco;$315,685.19;72 Players
+61.;Georgia;$313,983.39;22 Players
+62.;South Africa;$310,297.55;196 Players
+63.;Lebanon;$276,928.15;37 Players
+64.;Colombia;$276,288.55;106 Players
+65.;Hungary;$269,599.09;161 Players
+66.;New Zealand;$256,516.51;91 Players
+67.;Myanmar;$245,743.80;76 Players
+68.;Hong Kong;$245,024.33;133 Players
+69.;Algeria;$241,218.76;35 Players
+70.;Uruguay;$239,155.82;43 Players
+71.;Syrian Arab Republic;$235,399.60;34 Players
+72.;Bolivia;$223,929.65;28 Players
+73.;Iran, Islamic Republic of;$203,497.23;42 Players
+74.;Croatia;$199,270.29;73 Players
+75.;Lao People's Democratic Republic;$188,503.53;37 Players
+76.;Lithuania;$187,174.69;77 Players
+77.;Azerbaijan;$177,449.81;17 Players
+78.;Kuwait;$164,071.35;43 Players
+79.;Cambodia;$150,531.53;86 Players
+80.;Puerto Rico;$141,906.55;54 Players
+81.;Ecuador;$139,256.11;23 Players
+82.;Armenia;$131,610.40;16 Players
+83.;United Arab Emirates;$131,142.05;53 Players
+84.;Kosovo, Republic of;$118,304.50;41 Players
+85.;Dominican Republic;$116,542.67;44 Players
+86.;Venezuela;$102,262.41;34 Players
+87.;Ireland;$95,441.59;67 Players
+88.;Guatemala;$89,857.26;14 Players
+89.;Cuba;$83,047.99;10 Players
+90.;Bahrain;$77,544.29;13 Players
+91.;Montenegro;$75,365.02;3 Players
+92.;Uzbekistan;$65,986.12;20 Players
+93.;Afghanistan;$64,743.38;4 Players
+94.;Tunisia;$55,843.93;29 Players
+95.;Libyan Arab Jamahiriya;$51,798.05;7 Players
+96.;Brunei Darussalam;$50,646.73;110 Players
+97.;Costa Rica;$42,253.49;27 Players
+98.;Moldova, Republic of;$34,445.41;18 Players
+99.;Panama;$32,221.83;17 Players
+100.;Palestine, State of;$27,463.34;10 Players
+101.;Paraguay;$25,775.97;13 Players
+102.;Nicaragua;$25,765.11;8 Players
+103.;Bangladesh;$22,899.08;25 Players
+104.;Luxembourg;$19,738.16;12 Players
+105.;Qatar;$19,419.38;23 Players
+106.;Iceland;$18,421.43;54 Players
+107.;Yemen;$17,661.12;5 Players
+108.;Nigeria;$15,666.71;6 Players
+109.;Oman;$14,854.65;8 Players
+110.;Malta;$14,817.91;12 Players
+111.;Macao;$14,797.38;2 Players
+112.;Albania;$14,689.44;21 Players
+113.;Senegal;$13,748.41;2 Players
+114.;Honduras;$13,145.83;5 Players
+115.;Trinidad and Tobago;$6,783.69;7 Players
+116.;Jamaica;$6,645.84;4 Players
+117.;Namibia;$5,000.00;5 Players
+118.;Zimbabwe;$4,260.00;1 Player
+119.;Côte D'Ivoire;$4,215.00;4 Players
+120.;Madagascar;$2,500.00;5 Players
+121.;Mozambique;$2,245.69;5 Players
+122.;Sudan;$1,960.00;2 Players
+123.;El Salvador;$1,786.46;4 Players
+124.;Sri Lanka;$1,312.05;2 Players
+125.;Togo;$1,200.00;1 Player
+126.;Mauritius;$1,000.00;1 Player
+127.;Mauritania;$759.00;1 Player
+128.;Åland Islands;$560.00;2 Players
+129.;Guernsey;$513.33;1 Player
+130.;Wallis And Futuna;$500.00;1 Player
+131.;Aruba;$499.17;3 Players
+132.;Botswana;$233.33;1 Player
+133.;Uganda;$149.66;2 Players
+134.;Isle of Man;$51.00;1 Player
+135.;New Caledonia;$25.00;1 Player
+136.;Papua New Guinea;$25.00;1 Player
+137.;Andorra;$12.00;1 Player
+138.;Virgin Islands, U.S.;$12.00;1 Player

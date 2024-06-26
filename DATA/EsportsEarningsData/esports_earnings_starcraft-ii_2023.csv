@@ -1,0 +1,101 @@
+Order,Player ID,Player Name,Country,Total earnings(year),Total Earnings(game),Percentage of Game,Total(Overall),Percentage of Total
+1.,Reynor,Riccardo Romiti,Italy,"$203,775.77","$759,485.59",26.83%,"$759,485.59",26.83%
+2.,Oliveira,"Li, Peinan",China,"$184,928.72","$437,980.25",42.22%,"$437,980.25",42.22%
+3.,Maru,"Cho, Sung Choo",Republic of Korea,"$128,976.20","$1,296,583.05",9.95%,"$1,296,583.05",9.95%
+4.,Cure,"Kim, Doh Wook",Republic of Korea,"$128,590.55","$431,862.77",29.78%,"$431,862.77",29.78%
+5.,Serral,Joona Sotala,Finland,"$117,105.66","$1,483,291.82",7.89%,"$1,483,291.82",7.89%
+6.,herO,"Kim, Joon Ho",Republic of Korea,"$96,905.23","$558,951.03",17.34%,"$558,951.04",17.34%
+7.,Solar,"Kang, Min Soo",Republic of Korea,"$92,469.10","$602,515.88",15.35%,"$602,515.88",15.35%
+8.,Dark,"Park, Ryung Woo",Republic of Korea,"$87,270.51","$1,092,559.07",7.99%,"$1,092,559.07",7.99%
+9.,Clem,Clément Desplanches,France,"$86,679.87","$344,766.09",25.14%,"$345,166.09",25.11%
+10.,ByuN,"Byun, Hyun Woo",Republic of Korea,"$60,033.03","$603,456.87",9.95%,"$603,456.87",9.95%
+11.,SHIN,"Shin, Hee Bum",Republic of Korea,"$51,377.12","$236,701.26",21.71%,"$236,701.26",21.71%
+12.,Classic,"Kim, Doh Woo",Republic of Korea,"$47,014.23","$553,384.54",8.50%,"$556,064.59",8.45%
+13.,Spirit,Piotr Walukiewicz,Poland,"$38,142.98","$114,396.12",33.34%,"$114,396.12",33.34%
+14.,GuMiho,"Koh, Byung Jae",Republic of Korea,"$36,759.67","$310,514.67",11.84%,"$310,514.67",11.84%
+15.,MaxPax,Max C.,Denmark,"$36,483.01","$97,010.19",37.61%,"$97,010.19",37.61%
+16.,Elazer,Mikołaj Ogonowski,Poland,"$29,648.38","$332,986.34",8.90%,"$334,686.34",8.86%
+17.,Creator,"Jang, Hyun Woo",Republic of Korea,"$29,051.89","$231,025.92",12.58%,"$231,025.92",12.58%
+18.,Astrea,Max Angel,United States of America,"$28,741.73","$159,604.10",18.01%,"$159,604.10",18.01%
+19.,HeRoMaRinE,Gabriel Segat,Germany,"$28,649.48","$330,978.45",8.66%,"$330,978.45",8.66%
+20.,ShoWTimE,Tobias Sieber,Germany,"$25,264.64","$367,850.07",6.87%,"$367,850.07",6.87%
+21.,Lambo,Julian Brosig,Germany,"$17,607.97","$164,006.31",10.74%,"$164,006.31",10.74%
+22.,MC,"Jang, Min Chul",Republic of Korea,"$17,500.00","$527,271.79",3.32%,"$527,352.06",3.32%
+23.,SpeCial,Juan Carlos Lopez,Mexico,"$16,206.86","$463,079.08",3.50%,"$463,329.08",3.50%
+24.,Scarlett,Sasha Hostyn,Canada,"$14,282.84","$461,816.87",3.09%,"$465,550.07",3.07%
+25.,Kelazhur,Diego Schwimer,Brazil,"$13,803.20","$206,348.67",6.69%,"$207,101.74",6.66%
+26.,SKillous,Nikita Gurevich,Russian Federation,"$12,929.97","$73,438.68",17.61%,"$73,453.38",17.60%
+27.,Stephano,Ilyes Satouri,France,"$12,500.00","$320,929.72",3.89%,"$321,679.20",3.89%
+28.,TriGGeR,Yoon Hong,Canada,"$12,080.52","$40,791.36",29.62%,"$40,791.36",29.62%
+29.,JieShi,"Hu, Jiajun",China,"$11,140.43","$48,407.25",23.01%,"$48,407.25",23.01%
+30.,Ryung,"Kim, Dong Won",Republic of Korea,"$11,006.69","$157,613.07",6.98%,"$157,613.07",6.98%
+31.,DongRaeGu,"Park, Soo Ho",Republic of Korea,"$10,980.32","$358,183.09",3.07%,"$358,183.09",3.07%
+32.,NightMare,"Jang, Wook",Republic of Korea,"$10,599.98","$36,837.48",28.77%,"$56,837.48",18.65%
+33.,Bunny,"Lee, Jae Sung",Republic of Korea,"$10,446.19","$188,835.11",5.53%,"$188,835.11",5.53%
+34.,Mvp,"Jung, Jong Hyun",Republic of Korea,"$10,000.00","$414,994.83",2.41%,"$419,621.15",2.38%
+35.,MMA,"Moon, Sung Won",Republic of Korea,"$10,000.00","$417,169.17",2.40%,"$417,169.17",2.40%
+36.,Harstem,Kevin de Koning,Netherlands,"$9,583.62","$141,368.61",6.78%,"$141,368.61",6.78%
+37.,Firefly,"Xue, Tao",China,"$9,099.08","$48,980.90",18.58%,"$48,980.90",18.58%
+38.,Cyan,"Huang, Min",China,"$8,393.72","$124,539.48",6.74%,"$124,539.48",6.74%
+39.,Cham,Pablo Cham Blanco,Mexico,"$8,184.77","$111,971.21",7.31%,"$111,971.21",7.31%
+40.,Coffee,"Wu, Yishen",China,"$8,174.04","$42,002.98",19.46%,"$42,002.98",19.46%
+41.,Neeb,Alex Sunderhaft,United States of America,"$7,602.63","$589,644.76",1.29%,"$589,720.96",1.29%
+42.,Wayne,Ivan Chepurnov,Russian Federation,"$6,847.26","$37,371.04",18.32%,"$37,371.04",18.32%
+43.,Gerald,Mateusz Budziak,Poland,"$6,780.86","$45,161.19",15.01%,"$45,161.19",15.01%
+44.,MaNa,Grzegorz Komincz,Poland,"$6,456.11","$249,592.95",2.59%,"$252,062.56",2.56%
+45.,Nice,"Huang, Yu Shiang",Taiwan,"$6,392.02","$88,354.22",7.23%,"$88,354.22",7.23%
+46.,Krystianer,Krystian Szczęsny,Poland,"$5,918.22","$20,751.17",28.52%,"$20,751.17",28.52%
+47.,ShaDoWn,Thomas Labrousse,France,"$5,650.78","$38,923.80",14.52%,"$38,923.80",14.52%
+48.,Crank,"Choi, Jae Won",Republic of Korea,"$5,204.30","$36,107.85",14.41%,"$36,107.85",14.41%
+49.,YoungYakov,Yakov Moiseenko,Russian Federation,"$4,910.00","$8,011.78",61.28%,"$8,011.78",61.28%
+50.,Has,"Ke, Yu-Feng",Taiwan,"$4,833.10","$179,015.55",2.70%,"$179,015.55",2.70%
+51.,RotterdaM,Kevin van der Kooi,Netherlands,"$4,031.88","$6,724.80",59.96%,"$12,358.00",32.63%
+52.,Zoun,"Park, Han Sol",Republic of Korea,"$3,991.48","$88,223.42",4.52%,"$88,223.42",4.52%
+53.,DnS,Adrien Bouet,France,"$3,883.42","$79,476.25",4.89%,"$79,476.25",4.89%
+54.,Future,Richard Almand,United States of America,"$3,845.00","$44,057.50",8.73%,"$44,057.50",8.73%
+55.,MaSa,Maru Kim,Canada,"$3,200.00","$142,784.44",2.24%,"$142,784.44",2.24%
+56.,XY,"Xiang, Yao",China,"$3,164.67","$93,034.28",3.40%,"$93,034.28",3.40%
+57.,MilkiCow,Ilya Potapov,Russian Federation,"$3,105.00","$15,078.23",20.59%,"$15,110.61",20.55%
+58.,Rex,"Lei, Hao Cheng",Taiwan,"$2,992.63","$39,102.43",7.65%,"$39,102.43",7.65%
+59.,Bly,Aleksandr Svusuyk,Ukraine,"$2,975.00","$140,202.86",2.12%,"$140,443.70",2.12%
+60.,eGGz,Sebastian Latorre,Colombia,"$2,950.00","$15,093.50",19.54%,"$15,093.50",19.54%
+61.,MeomaikA,"Tran, Hong Phuc",Vietnam,"$2,930.00","$35,913.21",8.16%,"$36,088.21",8.12%
+62.,DisK,Alexandre Corriveau,Canada,"$2,900.00","$21,005.00",13.81%,"$21,005.00",13.81%
+63.,GunGFuBanDa,Fabian Mayer,Germany,"$2,850.00","$53,101.94",5.37%,"$53,101.94",5.37%
+64.,goblin,Leon Vrhovec,Croatia,"$2,811.94","$24,315.39",11.56%,"$24,315.39",11.56%
+65.,Vindicta,Miguel Marmolejo,United States of America,"$2,560.72","$25,148.49",10.18%,"$25,148.49",10.18%
+66.,MacSed,"Hu, Xiang",China,"$2,498.70","$123,759.35",2.02%,"$124,855.81",2.00%
+67.,Nanami,"Wang, Le",China,"$2,413.05","$3,933.95",61.34%,"$3,933.95",61.34%
+68.,Spatz,Marvin Tiele,Germany,"$2,405.45","$4,520.21",53.22%,"$4,520.21",53.22%
+69.,Nina,Nina Qual,United States of America,"$2,221.40","$92,973.33",2.39%,"$92,973.33",2.39%
+70.,Dolan,Paul Dolan,United States of America,"$2,212.16","$6,481.81",34.13%,"$6,481.81",34.13%
+71.,soO,"Eu, Yoon Su",Republic of Korea,"$2,204.18","$634,083.02",0.35%,"$643,025.52",0.34%
+72.,ForJumy,Julian Milz,Germany,"$2,167.30","$6,331.92",34.23%,"$6,331.92",34.23%
+73.,Mondo,"Song, Kyung-jun",Republic of Korea,"$2,139.72","$2,139.72",100.00%,"$2,139.72",100.00%
+74.,Silky,"Yin, Yongxin",China,"$2,051.57","$12,966.26",15.82%,"$12,966.26",15.82%
+75.,Stats,"Kim, Dae Yeob",Republic of Korea,"$2,013.18","$628,876.30",0.32%,"$634,195.19",0.32%
+76.,Erik,Erik Bermelho,Brazil,"$1,973.16","$22,506.91",8.77%,"$25,417.74",7.76%
+77.,PtitDrogo,Théo Freydière,France,"$1,909.12","$145,926.07",1.31%,"$148,426.07",1.29%
+78.,SCV,"Jiaqi, Luan",China,"$1,900.00","$1,900.00",100.00%,"$1,900.00",100.00%
+79.,AqueroN,Rubén Villanueva,Spain,"$1,833.07","$8,973.01",20.43%,"$8,973.01",20.43%
+80.,PattyMac,Patrick MacIlwaine,United States of America,"$1,691.77","$8,090.17",20.91%,"$8,090.17",20.91%
+81.,TooDming,"Huang, Hui Ming",China,"$1,661.57","$144,725.05",1.15%,"$146,947.29",1.13%
+82.,NightPhoenix,Oleksiy Zakharchuk,Ukraine,"$1,625.00","$3,398.60",47.81%,"$3,905.99",41.60%
+83.,GogojOey,"Kwok, Chun Yin",Hong Kong,"$1,500.00","$19,232.12",7.80%,"$19,232.12",7.80%
+84.,Ukko,Corey Merritt,United States of America,"$1,450.00","$4,402.50",32.94%,"$4,402.50",32.94%
+85.,TeebuL,Haseeb Ishaq,U.K. of Great Britain and Northern Ireland,"$1,445.25","$17,476.59",8.27%,"$17,476.59",8.27%
+86.,BattleB,Sven Kroth,Germany,"$1,386.10","$5,968.17",23.22%,"$5,968.17",23.22%
+87.,Mixu,Mikael Helenius,Finland,"$1,360.75","$4,131.49",32.94%,"$6,496.94",20.94%
+88.,ArT,Tymoteusz Makaran,Poland,"$1,311.94","$13,032.90",10.07%,"$13,032.90",10.07%
+89.,TY,"Jun, Tae Yang",Republic of Korea,"$1,275.68","$699,667.92",0.18%,"$708,468.19",0.18%
+90.,Blueming,"Lee, Ji Ho",Republic of Korea,"$1,200.00","$1,200.00",100.00%,"$2,862.67",41.92%
+91.,Arrogfire,Sylvain Joffre,France,"$1,197.76","$3,789.49",31.61%,"$3,789.49",31.61%
+92.,INnoVation,"Lee, Shin Hyung",Republic of Korea,$943.96,"$795,694.96",0.12%,"$799,192.66",0.12%
+93.,Strange,Alexey Solyakov,Russian Federation,$938.05,"$16,301.79",5.75%,"$16,301.79",5.75%
+94.,Couguar,Vitaly Roshin,Russian Federation,$875.00,"$7,081.00",12.36%,"$7,081.00",12.36%
+95.,Rail,Artem Avramenko,Russian Federation,$847.00,"$26,814.37",3.16%,"$27,254.49",3.11%
+96.,Prince,"Choi, Min Woo",Republic of Korea,$842.82,"$12,308.31",6.85%,"$12,308.31",6.85%
+97.,KeeN,"Hwang, Kyo Seok",Republic of Korea,$799.00,"$107,444.34",0.74%,"$107,444.34",0.74%
+98.,PAPI,Michał Królikowski,Poland,$716.95,"$2,307.52",31.07%,"$2,307.52",31.07%
+99.,Hellraiser,Bogdan Kozar,Ukraine,$700.00,"$25,391.77",2.76%,"$25,391.77",2.76%
+100.,Oriana,"Du, Junhao",China,$700.00,$700.00,100.00%,$700.00,100.00%

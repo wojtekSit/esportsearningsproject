@@ -1,0 +1,54 @@
+MAP
+  NAME 'csgoearnings2020'
+  STATUS ON
+  EXTENT -180 -90 180 90
+  SIZE 4096 2048
+  IMAGECOLOR 255 255 255
+  TRANSPARENT ON
+
+  PROJECTION
+    'init=epsg:4326'
+  END
+
+  OUTPUTFORMAT
+    NAME png
+    DRIVER 'GD/PNG'
+    MIMETYPE 'image/png'
+    IMAGEMODE RGB
+    EXTENSION 'png'
+  END
+  
+  WEB
+    IMAGEPATH '/tmp/'
+    IMAGEURL '/tmp/'
+    METADATA
+      'wms_title' 'csgoearnings2020'
+      'wms_srs' 'EPSG:4326'
+      'wms_title'           'csgoearnings2020'
+      'wms_onlineresource'  'http://localhost:85/cgi-bin/mapserv.exe?map=X:/WebGIS/EsportsEarnings/my-app/mapserver/csgo2020.map&LAYERS=ALL&MODE=MAP'
+      'wms_srs'             'EPSG:4326'
+      'wms_enable_request'  'GetMap GetFeatureInfo'
+      'wms_feature_info_mime_type' 'text/html'
+    END
+    
+    TEMPLATE 'fooOnlyForWMSGetFeatureInfo'
+  END
+
+  LAYER
+    NAME 'csgoearnings2020'
+    TYPE POLYGON
+    STATUS ON
+    CONNECTIONTYPE POSTGIS
+    CONNECTION 'host=localhost port=5432 dbname=EsportsEarningsDB user=postgres password=postgres'
+    DATA 'geom FROM csgoearnings2020 USING UNIQUE Order USING SRID=4326'
+    PROJECTION
+      'init=epsg:4326'
+    END
+    CLASS
+      STYLE
+        COLOR 255 0 0
+        OUTLINECOLOR 0 0 0
+      END
+    END
+  END
+END
