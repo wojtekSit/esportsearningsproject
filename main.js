@@ -36,14 +36,6 @@ const overlay = new Overlay({
   },
 });
 
-const quizContainer = document.getElementById('quiz-container');
-const quizQuestion = document.getElementById('quiz-question');
-const quizAnswer = document.getElementById('quiz-answer');
-const quizSubmit = document.getElementById('quiz-submit');
-const quizResult = document.getElementById('quiz-result');
-
-let currentFeature = null;
-
 // Define a style function based on the 'country_name_count' property
 const styleFunction = function (feature) {
   const count = feature.get('country_name_count');
@@ -86,232 +78,6 @@ const layers = [
       maxZoom: 19,
     }),
     title: 'Satellite',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:World_map' },
-      serverType: 'geoserver',
-    }),
-    title: 'World_Map',
-    type: 'base',
-    visible: false
-  }),
-  //FORTNITE
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2020' },
-      serverType: 'geoserver',
-    }),
-    title: 'fortniteearnings2020',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2021' },
-      serverType: 'geoserver',
-    }),
-    title: 'fortniteearnings2021',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2022' },
-      serverType: 'geoserver',
-    }),
-    title: 'fortniteearnings2022',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2023' },
-      serverType: 'geoserver',
-    }),
-    title: 'fortniteearnings2023',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2024' },
-      serverType: 'geoserver',
-    }),
-    title: 'fortniteearnings2024',
-    type: 'base',
-    visible: false
-  }),
-  //LEAGUEOFLEGENDS
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:lolearnings2020' },
-      serverType: 'geoserver',
-    }),
-    title: 'lolearnings2020',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:lolearnings2021' },
-      serverType: 'geoserver',
-    }),
-    title: 'lolearnings2021',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:lolearnings2022' },
-      serverType: 'geoserver',
-    }),
-    title: 'lolearnings2022',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:lolearnings2023' },
-      serverType: 'geoserver',
-    }),
-    title: 'lolearnings2023',
-    type: 'base',
-    visible: false
-  }),
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:lolearnings2024' },
-      serverType: 'geoserver',
-    }),
-    title: 'lolearnings2024',
-    type: 'base',
-    visible: false
-  }),
-  //STARCRAFT
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2020' },
-      serverType: 'geoserver',
-    }),
-    title: 'starcraftearnings2020',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2021' },
-      serverType: 'geoserver',
-    }),
-    title: 'starcraftearnings2021',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2022' },
-      serverType: 'geoserver',
-    }),
-    title: 'starcraftearnings2022',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2023' },
-      serverType: 'geoserver',
-    }),
-    title: 'starcraftearnings2023',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2024' },
-      serverType: 'geoserver',
-    }),
-    title: 'starcraftearnings2024',
-    type: 'base',
-    visible: false
-  }),
-  //CSGO
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:85/cgi-bin/mapserv.exe?map=X:\\WebGIS\\EsportsEarnings\\my-app\\mapserver\\csgo2020.map',
-      params: {
-        'LAYERS': 'ALL',
-        'MODE': 'GETMAP',
-        'FORMAT': 'image/png'
-      },
-      serverType: 'mapserver',
-    }),
-    title: 'csgoearnings2020',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2021' },
-      serverType: 'geoserver',
-    }),
-    title: 'csgoearnings2021',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2022' },
-      serverType: 'geoserver',
-    }),
-    title: 'csgoearnings2022',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2023' },
-      serverType: 'geoserver',
-    }),
-    title: 'csgoearnings2023',
-    type: 'base',
-    visible: false
-  }),
-
-  new TileLayer({
-    source: new TileWMS({
-      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
-      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2024' },
-      serverType: 'geoserver',
-    }),
-    title: 'csgoearnings2024',
     type: 'base',
     visible: false
   }),
@@ -382,55 +148,16 @@ closer.onclick = function () {
 
 // Function to change the layer visibility based on checkbox state
 function changeLayer(layerTitle, visible) {
-  const layer = layers.find((layer) => layer.get('title') === layerTitle);
+  const layer = layers.find(layer => layer.get('title') === layerTitle);
   if (layer) {
     layer.setVisible(visible);
-    if (visible) {
-      console.log(`Layer ${layerTitle} set to visible`);
-      displayRandomPlayer(layer);
-    } else {
-      console.log(`Layer ${layerTitle} set to invisible`);
-    }
   }
 }
-
 // Event listener for the checkboxes
 document.querySelectorAll('input[name="layer"]').forEach(checkbox => {
   checkbox.addEventListener('change', function (e) {
     changeLayer(e.target.value, e.target.checked);
   });
-});
-
-// Display a random player's ID and ask a question
-function displayRandomPlayer(layer) {
-  const source = layer.getSource();
-  if (source instanceof VectorSource) {
-    const features = source.getFeatures();
-    console.log(`Number of features in the layer: ${features.length}`);
-    if (features.length > 0) {
-      currentFeature = features[Math.floor(Math.random() * features.length)];
-      const playerId = currentFeature.get('Player ID');
-      quizQuestion.innerHTML = `Where is this player from? Player ID: ${playerId}`;
-      console.log(`Displayed player ID: ${playerId}`);
-    } else {
-      console.log('No features found in the layer');
-    }
-  } else {
-    console.log('The source is not a VectorSource');
-  }
-}
-
-// Handle quiz submission
-quizSubmit.addEventListener('click', function () {
-  const answer = quizAnswer.value.trim().toLowerCase();
-  if (currentFeature) {
-    const correctAnswer = currentFeature.get('country_name').toLowerCase();
-    if (answer === correctAnswer) {
-      quizResult.innerHTML = '<img src="https://cdn.frankerfacez.com/avatar/twitch/117494841" alt="Correct!" />';
-    } else {
-      quizResult.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-22MReo5gEGY_XTi1tBbvA6QuRN762PYYmg&s" alt="Correct!" />';
-    }
-  }
 });
 
 // Map Handle Single Click and display Info
@@ -458,7 +185,7 @@ map.on('singleclick', function (evt) {
           'INFO_FORMAT': infoFormat,
           'QUERY_LAYERS': visibleLayer.getSource().getParams().LAYERS,
           'LAYERS': visibleLayer.getSource().getParams().LAYERS,
-          'FEATURE_COUNT': 100  // Adjust as needed
+          'FEATURE_COUNT': 50  // Adjust as needed
         }
       );
 
