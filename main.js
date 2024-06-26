@@ -14,9 +14,6 @@ import Stroke from 'ol/style/Stroke';
 import Fill from 'ol/style/Fill';
 import XYZ from 'ol/source/XYZ';
 import { ScaleLine, defaults as defaultControls } from 'ol/control.js';
-// import FIUT from './DATA/WORLDMAP.geojson'
-
-// console.log(FIUT)
 
 const container = document.getElementById('popup');
 const content = document.getElementById('popup-content');
@@ -86,14 +83,6 @@ const layers = [
     visible: false
   }),
   //DOTA2 GeoJSON layers
-  // new VectorLayer({
-  //   source: new VectorSource({
-  //     features: new GeoJSON().readFeatures(FIUT)
-  //   }),
-  //   title: 'dotaearnings2020_geojson',
-  //   visible: false,
-  //   style: styleFunction
-  // }),
   new VectorLayer({
     source: new VectorSource({
       url: 'https://api.maptiler.com/data/dd197af5-2861-4740-9251-0c162e3a0b88/features.json?key=AMVO8mU7fwY8vNjJNkPJ',
@@ -102,34 +91,7 @@ const layers = [
     title: 'dotaearnings2021_geojson',
     visible: false,
     style: styleFunction
-  }),
-  new VectorLayer({
-    source: new VectorSource({
-      url: 'DATA/dota2022.geojson',
-      format: new GeoJSON()
-    }),
-    title: 'dotaearnings2022_geojson',
-    visible: false,
-    style: styleFunction
-  }),
-  new VectorLayer({
-    source: new VectorSource({
-      url: 'DATA/dota2023.geojson',
-      format: new GeoJSON()
-    }),
-    title: 'dotaearnings2023_geojson',
-    visible: false,
-    style: styleFunction
-  }),
-  new VectorLayer({
-    source: new VectorSource({
-      url: 'DATA/dota2024.geojson',
-      format: new GeoJSON()
-    }),
-    title: 'dotaearnings2024_geojson',
-    visible: false,
-    style: styleFunction
-  }),
+  })
 ];
 
 const map = new Map({
