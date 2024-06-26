@@ -63,8 +63,6 @@ const styleFunction = function (feature) {
     })
   });
 };
-const res = await fetch('./DATA/dota2020.geojson')
-console.log(res)
 const layers = [
   new TileLayer({
     source: new OSM(),
