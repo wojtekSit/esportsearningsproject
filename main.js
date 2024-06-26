@@ -36,6 +36,14 @@ const overlay = new Overlay({
   },
 });
 
+const quizContainer = document.getElementById('quiz-container');
+const quizQuestion = document.getElementById('quiz-question');
+const quizAnswer = document.getElementById('quiz-answer');
+const quizSubmit = document.getElementById('quiz-submit');
+const quizResult = document.getElementById('quiz-result');
+
+let currentFeature = null;
+
 // Define a style function based on the 'country_name_count' property
 const styleFunction = function (feature) {
   const count = feature.get('country_name_count');
@@ -111,9 +119,15 @@ closer.onclick = function () {
 
 // Function to change the layer visibility based on checkbox state
 function changeLayer(layerTitle, visible) {
-  const layer = layers.find(layer => layer.get('title') === layerTitle);
+  const layer = layers.find((layer) => layer.get('title') === layerTitle);
   if (layer) {
     layer.setVisible(visible);
+    if (visible) {
+      console.log(`Layer ${layerTitle} set to visible`);
+      displayRandomPlayer(layer);
+    } else {
+      console.log(`Layer ${layerTitle} set to invisible`);
+    }
   }
 }
 // Event listener for the checkboxes
@@ -121,6 +135,38 @@ document.querySelectorAll('input[name="layer"]').forEach(checkbox => {
   checkbox.addEventListener('change', function (e) {
     changeLayer(e.target.value, e.target.checked);
   });
+});
+
+// Display a random player's ID and ask a question
+function displayRandomPlayer(layer) {
+  const source = layer.getSource();
+  if (source instanceof VectorSource) {
+    const features = source.getFeatures();
+    console.log(`Number of features in the layer: ${features.length}`);
+    if (features.length > 0) {
+      currentFeature = features[Math.floor(Math.random() * features.length)];
+      const playerId = currentFeature.get('Player ID');
+      quizQuestion.innerHTML = `Where is this player from? Player ID: ${playerId}`;
+      console.log(`Displayed player ID: ${playerId}`);
+    } else {
+      console.log('No features found in the layer');
+    }
+  } else {
+    console.log('The source is not a VectorSource');
+  }
+}
+
+// Handle quiz submission
+quizSubmit.addEventListener('click', function () {
+  const answer = quizAnswer.value.trim().toLowerCase();
+  if (currentFeature) {
+    const correctAnswer = currentFeature.get('country_name').toLowerCase();
+    if (answer === correctAnswer) {
+      quizResult.innerHTML = 'correct';
+    } else {
+      quizResult.innerHTML = 'wrong';
+    }
+  }
 });
 
 // Map Handle Single Click and display Info
