@@ -71,6 +71,7 @@ const styleFunction = function (feature) {
     })
   });
 };
+
 const layers = [
   new TileLayer({
     source: new OSM(),
@@ -88,16 +89,277 @@ const layers = [
     type: 'base',
     visible: false
   }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:World_map' },
+      serverType: 'geoserver',
+    }),
+    title: 'World_Map',
+    type: 'base',
+    visible: false
+  }),
+  //FORTNITE
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2020' },
+      serverType: 'geoserver',
+    }),
+    title: 'fortniteearnings2020',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2021' },
+      serverType: 'geoserver',
+    }),
+    title: 'fortniteearnings2021',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2022' },
+      serverType: 'geoserver',
+    }),
+    title: 'fortniteearnings2022',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2023' },
+      serverType: 'geoserver',
+    }),
+    title: 'fortniteearnings2023',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:fortniteearnings2024' },
+      serverType: 'geoserver',
+    }),
+    title: 'fortniteearnings2024',
+    type: 'base',
+    visible: false
+  }),
+  //LEAGUEOFLEGENDS
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:lolearnings2020' },
+      serverType: 'geoserver',
+    }),
+    title: 'lolearnings2020',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:lolearnings2021' },
+      serverType: 'geoserver',
+    }),
+    title: 'lolearnings2021',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:lolearnings2022' },
+      serverType: 'geoserver',
+    }),
+    title: 'lolearnings2022',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:lolearnings2023' },
+      serverType: 'geoserver',
+    }),
+    title: 'lolearnings2023',
+    type: 'base',
+    visible: false
+  }),
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:lolearnings2024' },
+      serverType: 'geoserver',
+    }),
+    title: 'lolearnings2024',
+    type: 'base',
+    visible: false
+  }),
+  //STARCRAFT
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2020' },
+      serverType: 'geoserver',
+    }),
+    title: 'starcraftearnings2020',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2021' },
+      serverType: 'geoserver',
+    }),
+    title: 'starcraftearnings2021',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2022' },
+      serverType: 'geoserver',
+    }),
+    title: 'starcraftearnings2022',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2023' },
+      serverType: 'geoserver',
+    }),
+    title: 'starcraftearnings2023',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:starcraftearnings2024' },
+      serverType: 'geoserver',
+    }),
+    title: 'starcraftearnings2024',
+    type: 'base',
+    visible: false
+  }),
+  //CSGO
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:85/cgi-bin/mapserv.exe?map=X:\\WebGIS\\EsportsEarnings\\my-app\\mapserver\\csgo2020.map&LAYERS=ALL&MODE=MAP',
+      params: {
+        'LAYERS': 'csgoearnings2020',
+        'FORMAT': 'image/png',
+      },
+      serverType: 'mapserver',
+    }),
+    title: 'csgoearnings2020',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2021' },
+      serverType: 'geoserver',
+    }),
+    title: 'csgoearnings2021',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2022' },
+      serverType: 'geoserver',
+    }),
+    title: 'csgoearnings2022',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2023' },
+      serverType: 'geoserver',
+    }),
+    title: 'csgoearnings2023',
+    type: 'base',
+    visible: false
+  }),
+
+  new TileLayer({
+    source: new TileWMS({
+      url: 'http://localhost:8081/geoserver/EsportsEarnings/wms',
+      params: { 'LAYERS': 'EsportsEarnings:csgoearnings2024' },
+      serverType: 'geoserver',
+    }),
+    title: 'csgoearnings2024',
+    type: 'base',
+    visible: false
+  }),
   //DOTA2 GeoJSON layers
   new VectorLayer({
     source: new VectorSource({
-      url: 'https://api.maptiler.com/data/dd197af5-2861-4740-9251-0c162e3a0b88/features.json?key=AMVO8mU7fwY8vNjJNkPJ',
+      url: 'DATA/dota2020.geojson',
+      format: new GeoJSON()
+    }),
+    title: 'dotaearnings2020_geojson',
+    visible: false,
+    style: styleFunction
+  }),
+  new VectorLayer({
+    source: new VectorSource({
+      url: 'DATA/dota2021.geojson',
       format: new GeoJSON()
     }),
     title: 'dotaearnings2021_geojson',
     visible: false,
     style: styleFunction
-  })
+  }),
+  new VectorLayer({
+    source: new VectorSource({
+      url: 'DATA/dota2022.geojson',
+      format: new GeoJSON()
+    }),
+    title: 'dotaearnings2022_geojson',
+    visible: false,
+    style: styleFunction
+  }),
+  new VectorLayer({
+    source: new VectorSource({
+      url: 'DATA/dota2023.geojson',
+      format: new GeoJSON()
+    }),
+    title: 'dotaearnings2023_geojson',
+    visible: false,
+    style: styleFunction
+  }),
+  new VectorLayer({
+    source: new VectorSource({
+      url: 'DATA/dota2024.geojson',
+      format: new GeoJSON()
+    }),
+    title: 'dotaearnings2024_geojson',
+    visible: false,
+    style: styleFunction
+  }),
 ];
 
 const map = new Map({
@@ -130,6 +392,7 @@ function changeLayer(layerTitle, visible) {
     }
   }
 }
+
 // Event listener for the checkboxes
 document.querySelectorAll('input[name="layer"]').forEach(checkbox => {
   checkbox.addEventListener('change', function (e) {
@@ -162,9 +425,9 @@ quizSubmit.addEventListener('click', function () {
   if (currentFeature) {
     const correctAnswer = currentFeature.get('country_name').toLowerCase();
     if (answer === correctAnswer) {
-      quizResult.innerHTML = 'correct';
+      quizResult.innerHTML = '<img src="https://cdn.frankerfacez.com/avatar/twitch/117494841" alt="Correct!" />';
     } else {
-      quizResult.innerHTML = 'wrong';
+      quizResult.innerHTML = '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-22MReo5gEGY_XTi1tBbvA6QuRN762PYYmg&s" alt="Correct!" />';
     }
   }
 });
